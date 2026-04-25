@@ -1,0 +1,14 @@
+.env
+.git
+.github
+__pycache__
+*.pyc
+*.pyo
+node_modules
+data/raw/
+data/groww_pulse.db
+data/chroma/
+data/logs/
+google_tokens.json
+credentials.json
+.pytest_cache
