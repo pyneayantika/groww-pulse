@@ -1,0 +1,82 @@
+name: Groww Pulse CI
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "18"
+      
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      
+      - name: Download spaCy model
+        run: python -m spacy download en_core_web_sm
+      
+      - name: Install Node dependencies
+        run: npm install
+      
+      - name: Run pip-audit (Python vulnerability scan)
+        run: |
+          pip install pip-audit
+          pip-audit --requirement requirements.txt --strict
+        continue-on-error: false
+      
+      - name: Run npm audit (Node vulnerability scan)
+        run: npm audit --audit-level=high
+        continue-on-error: true
+      
+      - name: Run linting (ruff)
+        run: |
+          pip install ruff
+          ruff check . --ignore E501
+        continue-on-error: true
+      
+      - name: Run secret scan
+        run: python scripts/check_secrets.py
+        env:
+          PYTHONPATH: .
+      
+      - name: Run test suite
+        run: |
+          pytest tests/ -v --tb=short --ignore=tests/test_mcp.py
+        env:
+          PYTHONPATH: .
+          DB_URL: sqlite:///data/test_groww_pulse.db
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          AUTO_SEND: "false"
+          ENABLE_EXTERNAL_SEND: "false"
+          RECIPIENT_LIST: "test@example.com"
+      
+      - name: Upload coverage report
+        if: always()
+        run: |
+          pip install pytest-cov
+          pytest tests/ --cov=. --cov-report=xml
+            --ignore=tests/test_mcp.py -q
+        env:
+          PYTHONPATH: .
+          DB_URL: sqlite:///data/test_groww_pulse.db
+          AUTO_SEND: "false"
+          ENABLE_EXTERNAL_SEND: "false"
+          RECIPIENT_LIST: "test@example.com"
+        continue-on-error: true

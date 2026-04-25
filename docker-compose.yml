@@ -1,0 +1,26 @@
+version: "3.9"
+
+services:
+  groww-pulse:
+    build: .
+    container_name: groww-pulse-agent
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
+      - ./.chroma:/app/.chroma
+    restart: unless-stopped
+    command: python scheduler/cron_runner.py
+
+  dashboard:
+    build: .
+    container_name: groww-pulse-dashboard
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
+      - ./.chroma:/app/.chroma
+    ports:
+      - "5000:5000"
+    restart: unless-stopped
+    command: python dashboard/app.py

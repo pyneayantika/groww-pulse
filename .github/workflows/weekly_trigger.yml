@@ -1,0 +1,48 @@
+name: Weekly Pulse Trigger (Optional Manual)
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Run mode'
+        required: true
+        default: 'full'
+        type: choice
+        options:
+          - full
+          - ingest-only
+          - report-only
+          - quarterly
+
+jobs:
+  run-pulse:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "18"
+      
+      - name: Install deps
+        run: |
+          pip install -r requirements.txt
+          python -m spacy download en_core_web_sm
+          npm install
+      
+      - name: Run pipeline
+        run: python scripts/manual_run.py ${{ github.event.inputs.mode }}
+        env:
+          PYTHONPATH: .
+          DB_URL: ${{ secrets.DB_URL }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
+          RECIPIENT_LIST: ${{ secrets.RECIPIENT_LIST }}
+          AUTO_SEND: ${{ secrets.AUTO_SEND }}
+          ENABLE_EXTERNAL_SEND: "false"

@@ -1,0 +1,30 @@
+# Groww Weekly App Pulse — Week {{ note.week_number }}, {{ note.year }}
+_{{ note.week_start_date }} to {{ note.week_end_date }} · {{ note.total_reviews_analyzed }} reviews analyzed_
+{% if note.surge_week %}
+⚡ **Surge Week Detected** — high review volume. Sample of 500 analyzed.
+{% endif %}
+---
+
+## Top Themes This Week
+
+| Rank | Theme | Volume | Urgency | Trend |
+|------|-------|--------|---------|-------|
+{% for t in note.top_themes %}
+| {{ t.rank }} | {{ t.label }} | {{ t.volume }} | {{ t.urgency_score }}/10 | {{ t.trend_direction }} |
+{% endfor %}
+
+## What Users Are Saying
+
+{% for quote in note.user_quotes %}{% if quote %}
+> "{{ quote }}"
+
+{% endif %}{% endfor %}
+
+## Recommended Actions
+
+{% for action in note.action_ideas %}{% if action %}
+{{ loop.index }}. {{ action }}
+{% endif %}{% endfor %}
+
+---
+_Generated {{ note.generated_at.strftime('%Y-%m-%d %H:%M') }} IST · {{ note.word_count }} words_

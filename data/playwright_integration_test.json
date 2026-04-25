@@ -1,0 +1,62 @@
+{
+  "test_timestamp": "1777102273.2429423",
+  "scraper_result": {
+    "ios_count": 10,
+    "android_count": 10,
+    "total_count": 20,
+    "scraping_method": "playwright_v2"
+  },
+  "pipeline_tests": {
+    "deduplication_input": 20,
+    "deduplication_output": 20,
+    "language_filter_output": 0,
+    "embedding_shape": [
+      0
+    ],
+    "embedding_source": "BAAI/bge-small-en-v1.5"
+  },
+  "sample_reviews": [
+    {
+      "review_id": "2cd5ad5e25ccd06c45fcadd6a40d32c7ba370def9cff7763aeda109ec961139e",
+      "store": "ios",
+      "rating": 5,
+      "title": "",
+      "text": "Best investment app in India. Simple interface and great mutual fund options.",
+      "date": "2026-04-25",
+      "app_version": "5.32.0",
+      "raw_id": "ios_sample_0",
+      "language_detected": "non-english",
+      "pii_stripped": true,
+      "is_duplicate": false,
+      "suspicious_review": false
+    },
+    {
+      "review_id": "cfad8dd8d1a1c2c5eaa5efd69405ce49689aee18e7f539d99cb0e4008b2855cf",
+      "store": "ios",
+      "rating": 1,
+      "title": "",
+      "text": "KYC verification stuck for 3 days. Documents submitted but no response.",
+      "date": "2026-04-24",
+      "app_version": "5.32.0",
+      "raw_id": "ios_sample_1",
+      "language_detected": "non-english",
+      "pii_stripped": true,
+      "is_duplicate": false,
+      "suspicious_review": false
+    },
+    {
+      "review_id": "a50fe4f882bf84765683a0a6a162608e84e0ada114f2d09c3c72e8d4970da316",
+      "store": "ios",
+      "rating": 4,
+      "title": "",
+      "text": "Good app overall but withdrawal process could be faster and smoother.",
+      "date": "2026-04-23",
+      "app_version": "5.32.0",
+      "raw_id": "ios_sample_2",
+      "language_detected": "non-english",
+      "pii_stripped": true,
+      "is_duplicate": false,
+      "suspicious_review": false
+    }
+  ]
+}

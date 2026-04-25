@@ -1,0 +1,828 @@
+2026-04-25 01:13:43,477 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-04-25 01:13:43,478 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-04-25 01:13:43,478 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-04-25 01:14:23,978 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-04-25 01:14:23,979 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-04-25 01:14:23,979 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-04-25 11:12:22,613 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-04-25 11:12:22,616 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-04-25 11:12:22,616 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-04-25 12:24:55,628 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-04-25 12:24:55,629 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-04-25 12:24:55,630 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-04-25 12:24:57,139 [INFO] [INGEST] Starting review ingestion
+2026-04-25 12:24:59,413 [INFO] Starting ingestion pipeline
+2026-04-25 12:24:59,413 [INFO] Step 1: Fetching reviews
+2026-04-25 12:24:59,414 [ERROR] app_store_scraper not installed. Install with: pip install app-store-scraper
+2026-04-25 12:24:59,414 [INFO] Fetched 0 iOS reviews
+2026-04-25 12:24:59,414 [WARNING] Attempt 1 failed: Error fetching Android reviews: cannot access local variable 'Path' where it is not associated with a value. Waiting 2s...
+2026-04-25 12:25:01,415 [WARNING] Attempt 2 failed: Error fetching Android reviews: cannot access local variable 'Path' where it is not associated with a value. Waiting 4s...
+2026-04-25 12:25:05,417 [ERROR] Android scraper failed after 3 attempts: Error fetching Android reviews: cannot access local variable 'Path' where it is not associated with a value
+2026-04-25 12:25:05,418 [WARNING] Android scraper failed after 3 retries — using CSV fallback
+2026-04-25 12:25:05,421 [WARNING] No CSV fallback available — returning empty list
+2026-04-25 12:25:05,421 [INFO] Fetched 0 Android reviews
+2026-04-25 12:25:05,422 [INFO] Step 2: Merging and deduplicating reviews
+2026-04-25 12:25:05,423 [INFO] Step 3: Filtering English reviews
+2026-04-25 12:25:05,424 [INFO] Language filtering completed:
+2026-04-25 12:25:05,425 [INFO]   Total reviews: 0
+2026-04-25 12:25:05,425 [INFO]   Kept (English): 0
+2026-04-25 12:25:05,426 [INFO]   Discarded (non-English): 0
+2026-04-25 12:25:05,427 [INFO]   Unknown: 0
+2026-04-25 12:25:05,427 [WARNING] INSUFFICIENT ENGLISH: only 0 English reviews found. Minimum required is 10. Aborting AI pipeline for this run.
+2026-04-25 12:25:05,431 [INFO] Step 4: Applying noise filters
+2026-04-25 12:25:05,437 [INFO] Saved noise log to data\processed\noise_log_20260425.json
+2026-04-25 12:25:05,439 [INFO] Step 5: Stripping PII from reviews
+2026-04-25 12:25:05,439 [INFO] Step 6: Inserting reviews into database
+2026-04-25 12:25:05,440 [INFO] Inserted 0 reviews into database
+2026-04-25 12:25:05,440 [INFO] Step 7: Archiving reviews
+2026-04-25 12:25:05,531 [INFO] Ingestion completed: {'fetched': 0, 'deduped': 0, 'english': 0, 'noise_dropped': 0, 'inserted': 0, 'week_number': 17, 'year': 2026, 'ios_fetched': 0, 'android_fetched': 0, 'pii_stripped': 0}
+2026-04-25 12:25:05,532 [INFO] [INGEST] Inserted 0 reviews
+2026-04-25 12:25:06,289 [INFO] HTTP Request: POST https://oauth2.googleapis.com/token "HTTP/1.1 401 Unauthorized"
+2026-04-25 12:25:06,293 [INFO] [INGEST] No reviews — email notification failed: Failed to get Gmail access token: Client error '401 Unauthorized' for url 'https://oauth2.googleapis.com/token'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2026-04-25 12:25:06,301 [INFO] [INGEST] No reviews — skipping AI pipeline
+2026-04-25 16:54:37,856 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-04-25 16:54:37,858 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-04-25 16:54:37,858 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-04-25 16:54:40,792 [INFO] [INGEST] Starting review ingestion
+2026-04-25 16:54:46,774 [INFO] Starting ingestion pipeline
+2026-04-25 16:54:46,774 [INFO] Step 1: Fetching reviews
+2026-04-25 16:54:46,775 [ERROR] app_store_scraper not installed. Install with: pip install app-store-scraper
+2026-04-25 16:54:46,775 [INFO] Fetched 0 iOS reviews
+2026-04-25 16:54:46,775 [WARNING] Attempt 1 failed: Error fetching Android reviews: cannot access local variable 'Path' where it is not associated with a value. Waiting 2s...
+2026-04-25 16:54:48,776 [WARNING] Attempt 2 failed: Error fetching Android reviews: cannot access local variable 'Path' where it is not associated with a value. Waiting 4s...
+2026-04-25 16:54:52,778 [ERROR] Android scraper failed after 3 attempts: Error fetching Android reviews: cannot access local variable 'Path' where it is not associated with a value
+2026-04-25 16:54:52,779 [WARNING] Android scraper failed after 3 retries — using CSV fallback
+2026-04-25 16:54:52,794 [WARNING] No CSV fallback available — returning empty list
+2026-04-25 16:54:52,795 [INFO] Fetched 0 Android reviews
+2026-04-25 16:54:52,795 [INFO] Step 2: Merging and deduplicating reviews
+2026-04-25 16:54:52,797 [INFO] Step 3: Filtering English reviews
+2026-04-25 16:54:52,797 [INFO] Language filtering completed:
+2026-04-25 16:54:52,798 [INFO]   Total reviews: 0
+2026-04-25 16:54:52,798 [INFO]   Kept (English): 0
+2026-04-25 16:54:52,799 [INFO]   Discarded (non-English): 0
+2026-04-25 16:54:52,799 [INFO]   Unknown: 0
+2026-04-25 16:54:52,799 [WARNING] INSUFFICIENT ENGLISH: only 0 English reviews found. Minimum required is 10. Aborting AI pipeline for this run.
+2026-04-25 16:54:52,801 [INFO] Step 4: Applying noise filters
+2026-04-25 16:54:52,803 [INFO] Saved noise log to data\processed\noise_log_20260425.json
+2026-04-25 16:54:52,808 [INFO] Step 5: Stripping PII from reviews
+2026-04-25 16:54:52,809 [INFO] Step 6: Inserting reviews into database
+2026-04-25 16:54:52,810 [INFO] Inserted 0 reviews into database
+2026-04-25 16:54:52,811 [INFO] Step 7: Archiving reviews
+2026-04-25 16:54:52,956 [INFO] Ingestion completed: {'fetched': 0, 'deduped': 0, 'english': 0, 'noise_dropped': 0, 'inserted': 0, 'week_number': 17, 'year': 2026, 'ios_fetched': 0, 'android_fetched': 0, 'pii_stripped': 0}
+2026-04-25 16:54:52,957 [INFO] [INGEST] Inserted 0 reviews
+2026-04-25 16:54:53,572 [INFO] HTTP Request: POST https://oauth2.googleapis.com/token "HTTP/1.1 200 OK"
+2026-04-25 16:54:54,576 [INFO] HTTP Request: POST https://gmail.googleapis.com/gmail/v1/users/me/drafts "HTTP/1.1 200 OK"
+2026-04-25 16:54:54,578 [INFO] [INGEST] No reviews — notification email drafted
+2026-04-25 16:54:54,582 [INFO] [INGEST] No reviews — skipping AI pipeline
+2026-04-25 17:04:52,164 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-04-25 17:04:52,166 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-04-25 17:04:52,166 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-04-25 17:04:55,294 [INFO] [INGEST] Starting review ingestion
+2026-04-25 17:05:00,613 [INFO] Starting ingestion pipeline
+2026-04-25 17:05:00,613 [INFO] Step 1: Fetching reviews
+2026-04-25 17:05:00,628 [INFO] Fetching iOS reviews for app_id: co.groww.stocks via app-store-web-scraper
+2026-04-25 17:05:00,628 [WARNING] iOS scraper error (returning empty list): invalid literal for int() with base 10: 'co.groww.stocks'
+2026-04-25 17:05:00,629 [INFO] Fetched 0 iOS reviews
+2026-04-25 17:05:00,629 [INFO] Fetching Android reviews for app_id: com.nextbillion.groww (attempt 1)
+2026-04-25 17:05:04,112 [INFO] Successfully fetched 200 Android reviews
+2026-04-25 17:05:04,112 [INFO] Fetched 200 Android reviews
+2026-04-25 17:05:04,113 [INFO] Step 2: Merging and deduplicating reviews
+2026-04-25 17:05:04,237 [INFO] Deduplication completed:
+2026-04-25 17:05:04,237 [INFO]   Total reviews: 200
+2026-04-25 17:05:04,237 [INFO]   Within-batch duplicates: 47
+2026-04-25 17:05:04,238 [INFO]   Cross-store duplicates: 0
+2026-04-25 17:05:04,238 [INFO]   Kept reviews: 153
+2026-04-25 17:05:04,239 [INFO] Step 3: Filtering English reviews
+2026-04-25 17:05:05,409 [INFO] initializing identifier
+2026-04-25 17:05:08,230 [INFO] Language filtering completed:
+2026-04-25 17:05:08,231 [INFO]   Total reviews: 153
+2026-04-25 17:05:08,231 [INFO]   Kept (English): 3
+2026-04-25 17:05:08,232 [INFO]   Discarded (non-English): 131
+2026-04-25 17:05:08,232 [INFO]   Unknown: 19
+2026-04-25 17:05:08,232 [WARNING] INSUFFICIENT ENGLISH: only 3 English reviews found. Minimum required is 10. Aborting AI pipeline for this run.
+2026-04-25 17:05:08,234 [INFO] Step 4: Applying noise filters
+2026-04-25 17:05:08,236 [INFO] Saved noise log to data\processed\noise_log_20260425.json
+2026-04-25 17:05:08,237 [INFO] Step 5: Stripping PII from reviews
+2026-04-25 17:05:08,237 [INFO] Step 6: Inserting reviews into database
+2026-04-25 17:05:08,237 [INFO] Inserted 0 reviews into database
+2026-04-25 17:05:08,238 [INFO] Step 7: Archiving reviews
+2026-04-25 17:05:08,279 [INFO] Ingestion completed: {'fetched': 200, 'deduped': 153, 'english': 3, 'noise_dropped': 3, 'inserted': 0, 'week_number': 17, 'year': 2026, 'ios_fetched': 0, 'android_fetched': 200, 'pii_stripped': 0}
+2026-04-25 17:05:08,280 [INFO] [INGEST] Inserted 0 reviews
+2026-04-25 17:05:09,186 [INFO] HTTP Request: POST https://oauth2.googleapis.com/token "HTTP/1.1 200 OK"
+2026-04-25 17:05:10,286 [INFO] HTTP Request: POST https://gmail.googleapis.com/gmail/v1/users/me/drafts "HTTP/1.1 200 OK"
+2026-04-25 17:05:10,287 [INFO] [INGEST] No reviews — notification email drafted
+2026-04-25 17:05:10,309 [INFO] [INGEST] No reviews — skipping AI pipeline
+2026-04-25 17:25:44,725 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-04-25 17:25:44,726 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-04-25 17:25:44,726 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-04-25 17:25:46,553 [INFO] [INGEST] Starting review ingestion
+2026-04-25 17:25:50,260 [INFO] Starting ingestion pipeline
+2026-04-25 17:25:50,261 [INFO] Step 1: Fetching reviews
+2026-04-25 17:25:50,286 [INFO] Fetching iOS reviews for app_id: co.groww.stocks via app-store-web-scraper
+2026-04-25 17:25:50,287 [WARNING] iOS scraper error (returning empty list): invalid literal for int() with base 10: 'co.groww.stocks'
+2026-04-25 17:25:50,287 [INFO] Fetched 0 iOS reviews
+2026-04-25 17:25:50,288 [INFO] Fetching Android reviews for app_id: com.nextbillion.groww (attempt 1)
+2026-04-25 17:25:53,213 [INFO] Successfully fetched 200 Android reviews
+2026-04-25 17:25:53,213 [INFO] Fetched 200 Android reviews
+2026-04-25 17:25:53,213 [INFO] Step 2: Merging and deduplicating reviews
+2026-04-25 17:25:53,354 [INFO] Deduplication completed:
+2026-04-25 17:25:53,355 [INFO]   Total reviews: 200
+2026-04-25 17:25:53,355 [INFO]   Within-batch duplicates: 48
+2026-04-25 17:25:53,355 [INFO]   Cross-store duplicates: 0
+2026-04-25 17:25:53,355 [INFO]   Kept reviews: 152
+2026-04-25 17:25:53,357 [INFO] Step 3: Filtering English reviews
+2026-04-25 17:25:53,746 [INFO] initializing identifier
+2026-04-25 17:25:58,102 [INFO] Language filtering completed:
+2026-04-25 17:25:58,102 [INFO]   Total reviews: 152
+2026-04-25 17:25:58,103 [INFO]   Kept (English): 3
+2026-04-25 17:25:58,103 [INFO]   Discarded (non-English): 130
+2026-04-25 17:25:58,103 [INFO]   Unknown: 19
+2026-04-25 17:25:58,104 [WARNING] INSUFFICIENT ENGLISH: only 3 English reviews found. Minimum required is 10. Aborting AI pipeline for this run.
+2026-04-25 17:25:58,107 [INFO] Step 4: Applying noise filters
+2026-04-25 17:25:58,110 [INFO] Saved noise log to data\processed\noise_log_20260425.json
+2026-04-25 17:25:58,124 [INFO] Step 5: Stripping PII from reviews
+2026-04-25 17:25:58,125 [INFO] Step 6: Inserting reviews into database
+2026-04-25 17:25:58,126 [INFO] Inserted 0 reviews into database
+2026-04-25 17:25:58,126 [INFO] Step 7: Archiving reviews
+2026-04-25 17:25:58,195 [INFO] Ingestion completed: {'fetched': 200, 'deduped': 152, 'english': 3, 'noise_dropped': 3, 'inserted': 0, 'week_number': 17, 'year': 2026, 'ios_fetched': 0, 'android_fetched': 200, 'pii_stripped': 0}
+2026-04-25 17:25:58,196 [INFO] [INGEST] Inserted 0 reviews
+2026-04-25 17:25:59,853 [INFO] HTTP Request: POST https://oauth2.googleapis.com/token "HTTP/1.1 200 OK"
+2026-04-25 17:26:00,978 [INFO] HTTP Request: POST https://gmail.googleapis.com/gmail/v1/users/me/drafts "HTTP/1.1 200 OK"
+2026-04-25 17:26:00,979 [INFO] [INGEST] No reviews — notification email drafted
+2026-04-25 17:26:00,984 [INFO] [INGEST] No reviews — skipping AI pipeline
+2026-04-25 17:28:32,387 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-04-25 17:28:32,388 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-04-25 17:28:32,388 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-04-25 17:28:34,387 [INFO] [INGEST] Starting review ingestion
+2026-04-25 17:28:38,633 [INFO] Starting ingestion pipeline
+2026-04-25 17:28:38,633 [INFO] Step 1: Fetching reviews
+2026-04-25 17:28:38,643 [INFO] Fetching iOS reviews for app_id: co.groww.stocks via app-store-web-scraper
+2026-04-25 17:28:38,643 [WARNING] iOS scraper error (returning empty list): invalid literal for int() with base 10: 'co.groww.stocks'
+2026-04-25 17:28:38,644 [INFO] Fetched 0 iOS reviews
+2026-04-25 17:28:38,644 [INFO] Fetching Android reviews for app_id: com.nextbillion.groww (attempt 1)
+2026-04-25 17:28:41,651 [INFO] Successfully fetched 200 Android reviews
+2026-04-25 17:28:41,652 [INFO] Fetched 200 Android reviews
+2026-04-25 17:28:41,652 [INFO] Step 2: Merging and deduplicating reviews
+2026-04-25 17:28:41,771 [INFO] Deduplication completed:
+2026-04-25 17:28:41,772 [INFO]   Total reviews: 200
+2026-04-25 17:28:41,772 [INFO]   Within-batch duplicates: 48
+2026-04-25 17:28:41,772 [INFO]   Cross-store duplicates: 0
+2026-04-25 17:28:41,772 [INFO]   Kept reviews: 152
+2026-04-25 17:28:41,773 [INFO] Step 3: Filtering English reviews
+2026-04-25 17:28:42,036 [INFO] initializing identifier
+2026-04-25 17:28:45,151 [INFO] Language filtering completed:
+2026-04-25 17:28:45,151 [INFO]   Total reviews: 152
+2026-04-25 17:28:45,152 [INFO]   Kept (English): 148
+2026-04-25 17:28:45,152 [INFO]   Discarded (non-English): 4
+2026-04-25 17:28:45,152 [INFO]   Unknown: 0
+2026-04-25 17:28:45,153 [INFO] Step 4: Applying noise filters
+2026-04-25 17:28:45,157 [INFO] Saved noise log to data\processed\noise_log_20260425.json
+2026-04-25 17:28:45,159 [INFO] Step 5: Stripping PII from reviews
+2026-04-25 17:28:45,963 [INFO] Step 6: Inserting reviews into database
+2026-04-25 17:28:45,964 [ERROR] Failed to insert reviews into database: List argument must consist only of dictionaries
+2026-04-25 17:28:45,964 [INFO] Step 7: Archiving reviews
+2026-04-25 17:28:45,967 [INFO] Ingestion completed: {'fetched': 200, 'deduped': 152, 'english': 148, 'noise_dropped': 48, 'inserted': 0, 'week_number': 17, 'year': 2026, 'ios_fetched': 0, 'android_fetched': 200, 'pii_stripped': 100}
+2026-04-25 17:28:45,967 [INFO] [INGEST] Inserted 0 reviews
+2026-04-25 17:28:46,790 [INFO] HTTP Request: POST https://oauth2.googleapis.com/token "HTTP/1.1 200 OK"
+2026-04-25 17:28:47,867 [INFO] HTTP Request: POST https://gmail.googleapis.com/gmail/v1/users/me/drafts "HTTP/1.1 200 OK"
+2026-04-25 17:28:47,868 [INFO] [INGEST] No reviews — notification email drafted
+2026-04-25 17:28:47,887 [INFO] [INGEST] No reviews — skipping AI pipeline
+2026-04-25 17:34:27,972 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-04-25 17:34:27,973 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-04-25 17:34:27,973 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-04-25 17:34:29,920 [INFO] [INGEST] Starting review ingestion
+2026-04-25 17:34:33,397 [INFO] Starting ingestion pipeline
+2026-04-25 17:34:33,397 [INFO] Step 1: Fetching reviews
+2026-04-25 17:34:33,404 [INFO] Fetching iOS reviews for app_id: co.groww.stocks via app-store-web-scraper
+2026-04-25 17:34:33,404 [WARNING] iOS scraper error (returning empty list): invalid literal for int() with base 10: 'co.groww.stocks'
+2026-04-25 17:34:33,404 [INFO] Fetched 0 iOS reviews
+2026-04-25 17:34:33,405 [INFO] Fetching Android reviews for app_id: com.nextbillion.groww (attempt 1)
+2026-04-25 17:34:36,213 [INFO] Successfully fetched 200 Android reviews
+2026-04-25 17:34:36,213 [INFO] Fetched 200 Android reviews
+2026-04-25 17:34:36,213 [INFO] Step 2: Merging and deduplicating reviews
+2026-04-25 17:34:36,322 [INFO] Deduplication completed:
+2026-04-25 17:34:36,322 [INFO]   Total reviews: 200
+2026-04-25 17:34:36,323 [INFO]   Within-batch duplicates: 48
+2026-04-25 17:34:36,323 [INFO]   Cross-store duplicates: 0
+2026-04-25 17:34:36,323 [INFO]   Kept reviews: 152
+2026-04-25 17:34:36,324 [INFO] Step 3: Filtering English reviews
+2026-04-25 17:34:36,324 [INFO] Language filter: kept 148 English / discarded 4 non-English
+2026-04-25 17:34:36,325 [INFO] Step 4: Applying noise filters
+2026-04-25 17:34:36,328 [INFO] Saved noise log to data\processed\noise_log_20260425.json
+2026-04-25 17:34:36,331 [INFO] Step 5: Stripping PII from reviews
+2026-04-25 17:34:36,883 [INFO] Step 6: Inserting reviews into database
+2026-04-25 17:34:36,884 [ERROR] Failed to insert reviews into database: List argument must consist only of dictionaries
+2026-04-25 17:34:36,884 [INFO] Step 7: Archiving reviews
+2026-04-25 17:34:36,886 [INFO] Ingestion completed: {'fetched': 200, 'deduped': 152, 'english': 148, 'noise_dropped': 48, 'inserted': 0, 'week_number': 17, 'year': 2026, 'ios_fetched': 0, 'android_fetched': 200, 'pii_stripped': 100}
+2026-04-25 17:34:36,886 [INFO] [INGEST] Inserted 0 reviews
+2026-04-25 17:34:37,620 [INFO] HTTP Request: POST https://oauth2.googleapis.com/token "HTTP/1.1 200 OK"
+2026-04-25 17:34:38,654 [INFO] HTTP Request: POST https://gmail.googleapis.com/gmail/v1/users/me/drafts "HTTP/1.1 200 OK"
+2026-04-25 17:34:38,655 [INFO] [INGEST] No reviews — notification email drafted
+2026-04-25 17:34:38,659 [INFO] [INGEST] No reviews — skipping AI pipeline
+2026-04-25 17:35:56,367 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-04-25 17:35:56,368 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-04-25 17:35:56,368 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-04-25 17:35:59,293 [INFO] [INGEST] Starting review ingestion
+2026-04-25 17:36:03,335 [INFO] Starting ingestion pipeline
+2026-04-25 17:36:03,335 [INFO] Step 1: Fetching reviews
+2026-04-25 17:36:03,344 [INFO] Fetching iOS reviews for app_id: 1404871703 via app-store-web-scraper
+2026-04-25 17:36:05,001 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,001 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,002 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,002 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,002 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,002 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,002 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,003 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,003 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,003 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,003 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,003 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,003 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,004 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,004 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,004 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,004 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,004 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,004 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,004 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,004 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,004 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,004 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,004 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,005 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,005 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,005 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,005 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,005 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,005 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,006 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,006 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,006 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,006 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,006 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,007 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,007 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,008 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,009 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,009 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,010 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,010 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,010 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,010 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,011 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,011 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,011 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,011 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,011 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,011 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,012 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,012 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,012 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,012 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,012 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,012 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,012 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,013 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,013 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,013 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,013 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,013 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,013 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,013 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,014 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,014 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,014 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,014 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,014 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,014 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,014 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,015 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,015 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,015 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,015 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,015 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,015 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,015 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,016 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,016 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,016 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,016 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,016 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,017 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,017 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,017 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,017 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,017 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,017 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,017 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,017 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,017 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,018 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,018 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,018 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,018 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,018 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,018 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,018 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,019 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,019 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,019 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,019 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,019 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,019 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,019 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,020 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,020 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,020 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,020 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,020 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,020 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,020 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,021 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,021 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,021 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,021 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,021 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,021 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,021 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,021 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,022 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,022 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,022 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,022 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,022 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,022 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,022 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,022 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,023 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,023 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,023 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,023 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,023 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,024 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,024 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,025 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,025 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,025 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,025 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,026 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,026 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,026 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,026 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,026 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,026 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,026 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,027 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,027 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,027 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,027 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,027 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,027 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,027 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,028 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,028 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,028 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,028 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,028 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,028 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,029 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,029 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,029 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,029 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,029 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,029 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,029 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,030 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,030 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,030 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,030 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,030 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,030 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,030 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,030 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,031 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,031 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,031 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,031 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,031 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,031 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,031 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,032 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,032 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,032 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,032 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,032 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,032 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,032 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,033 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,033 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,033 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,033 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,033 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,033 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,033 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,033 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,034 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,034 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,034 [WARNING] Error processing individual iOS review: 'AppReview' object has no attribute 'get'
+2026-04-25 17:36:05,034 [INFO] Successfully fetched 0 iOS reviews
+2026-04-25 17:36:05,035 [INFO] Fetched 0 iOS reviews
+2026-04-25 17:36:05,035 [INFO] Fetching Android reviews for app_id: com.nextbillion.groww (attempt 1)
+2026-04-25 17:36:07,993 [INFO] Successfully fetched 200 Android reviews
+2026-04-25 17:36:07,994 [INFO] Fetched 200 Android reviews
+2026-04-25 17:36:07,994 [INFO] Step 2: Merging and deduplicating reviews
+2026-04-25 17:36:08,005 [INFO] Deduplication completed:
+2026-04-25 17:36:08,006 [INFO]   Total reviews: 200
+2026-04-25 17:36:08,006 [INFO]   Within-batch duplicates: 48
+2026-04-25 17:36:08,007 [INFO]   Cross-store duplicates: 0
+2026-04-25 17:36:08,007 [INFO]   Kept reviews: 152
+2026-04-25 17:36:08,008 [INFO] Step 3: Filtering English reviews
+2026-04-25 17:36:08,009 [INFO] Language filter: kept 148 English / discarded 4 non-English
+2026-04-25 17:36:08,010 [INFO] Step 4: Applying noise filters
+2026-04-25 17:36:08,014 [INFO] Saved noise log to data\processed\noise_log_20260425.json
+2026-04-25 17:36:08,016 [INFO] Step 5: Stripping PII from reviews
+2026-04-25 17:36:08,758 [INFO] Step 6: Inserting reviews into database
+2026-04-25 17:36:08,770 [INFO] Inserted 100 reviews into database
+2026-04-25 17:36:08,770 [INFO] Step 7: Archiving reviews
+2026-04-25 17:36:08,872 [INFO] Ingestion completed: {'fetched': 200, 'deduped': 152, 'english': 148, 'noise_dropped': 48, 'inserted': 100, 'week_number': 17, 'year': 2026, 'ios_fetched': 0, 'android_fetched': 200, 'pii_stripped': 100}
+2026-04-25 17:36:08,873 [INFO] [INGEST] Inserted 100 reviews
+2026-04-25 17:36:08,889 [ERROR] Pipeline failed: Traceback (most recent call last):
+  File "C:\Users\ayant\AI_Agent_Groww\scheduler\orchestrator.py", line 90, in run_weekly_pipeline
+    insufficient_flag = Path("data/processed/insufficient_english_flag.txt")
+                        ^^^^
+UnboundLocalError: cannot access local variable 'Path' where it is not associated with a value
+
+2026-04-25 17:36:09,667 [INFO] HTTP Request: POST https://oauth2.googleapis.com/token "HTTP/1.1 200 OK"
+2026-04-25 17:36:10,702 [INFO] HTTP Request: POST https://gmail.googleapis.com/gmail/v1/users/me/drafts "HTTP/1.1 200 OK"
+2026-04-25 17:36:10,703 [INFO] Failure alert email drafted
+2026-04-25 17:36:58,646 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-04-25 17:36:58,647 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-04-25 17:36:58,647 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-04-25 17:37:00,429 [INFO] [INGEST] Starting review ingestion
+2026-04-25 17:37:03,497 [INFO] Starting ingestion pipeline
+2026-04-25 17:37:03,497 [INFO] Step 1: Fetching reviews
+2026-04-25 17:37:03,502 [INFO] Fetching iOS reviews for app_id: 1404871703 via app-store-web-scraper
+2026-04-25 17:37:03,848 [INFO] Successfully fetched 200 iOS reviews
+2026-04-25 17:37:03,849 [INFO] Fetched 200 iOS reviews
+2026-04-25 17:37:03,849 [INFO] Fetching Android reviews for app_id: com.nextbillion.groww (attempt 1)
+2026-04-25 17:37:06,700 [INFO] Successfully fetched 200 Android reviews
+2026-04-25 17:37:06,701 [INFO] Fetched 200 Android reviews
+2026-04-25 17:37:06,701 [INFO] Step 2: Merging and deduplicating reviews
+2026-04-25 17:37:06,714 [INFO] Deduplication completed:
+2026-04-25 17:37:06,714 [INFO]   Total reviews: 400
+2026-04-25 17:37:06,715 [INFO]   Within-batch duplicates: 102
+2026-04-25 17:37:06,715 [INFO]   Cross-store duplicates: 100
+2026-04-25 17:37:06,715 [INFO]   Kept reviews: 198
+2026-04-25 17:37:06,716 [INFO] Step 3: Filtering English reviews
+2026-04-25 17:37:06,716 [INFO] Language filter: kept 195 English / discarded 3 non-English
+2026-04-25 17:37:06,717 [INFO] Step 4: Applying noise filters
+2026-04-25 17:37:06,722 [INFO] Saved noise log to data\processed\noise_log_20260425.json
+2026-04-25 17:37:06,724 [INFO] Step 5: Stripping PII from reviews
+2026-04-25 17:37:07,516 [INFO] Step 6: Inserting reviews into database
+2026-04-25 17:37:07,541 [INFO] Inserted 97 reviews into database
+2026-04-25 17:37:07,541 [INFO] Step 7: Archiving reviews
+2026-04-25 17:37:07,579 [INFO] Ingestion completed: {'fetched': 400, 'deduped': 198, 'english': 195, 'noise_dropped': 98, 'inserted': 97, 'week_number': 17, 'year': 2026, 'ios_fetched': 200, 'android_fetched': 200, 'pii_stripped': 97}
+2026-04-25 17:37:07,580 [INFO] [INGEST] Inserted 97 reviews
+2026-04-25 17:37:07,599 [INFO] [INGEST] Insufficient English reviews — aborting
+2026-04-25 17:37:30,721 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-04-25 17:37:30,722 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-04-25 17:37:30,722 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-04-25 17:37:32,365 [INFO] [INGEST] Starting review ingestion
+2026-04-25 17:37:35,295 [INFO] Starting ingestion pipeline
+2026-04-25 17:37:35,295 [INFO] Step 1: Fetching reviews
+2026-04-25 17:37:35,299 [INFO] Fetching iOS reviews for app_id: 1404871703 via app-store-web-scraper
+2026-04-25 17:37:35,746 [INFO] Successfully fetched 200 iOS reviews
+2026-04-25 17:37:35,747 [INFO] Fetched 200 iOS reviews
+2026-04-25 17:37:35,748 [INFO] Fetching Android reviews for app_id: com.nextbillion.groww (attempt 1)
+2026-04-25 17:37:38,535 [INFO] Successfully fetched 200 Android reviews
+2026-04-25 17:37:38,536 [INFO] Fetched 200 Android reviews
+2026-04-25 17:37:38,537 [INFO] Step 2: Merging and deduplicating reviews
+2026-04-25 17:37:38,546 [INFO] Deduplication completed:
+2026-04-25 17:37:38,546 [INFO]   Total reviews: 400
+2026-04-25 17:37:38,546 [INFO]   Within-batch duplicates: 102
+2026-04-25 17:37:38,547 [INFO]   Cross-store duplicates: 197
+2026-04-25 17:37:38,548 [INFO]   Kept reviews: 101
+2026-04-25 17:37:38,549 [INFO] Step 3: Filtering English reviews
+2026-04-25 17:37:38,549 [INFO] Language filter: kept 98 English / discarded 3 non-English
+2026-04-25 17:37:38,550 [INFO] Step 4: Applying noise filters
+2026-04-25 17:37:38,554 [INFO] Saved noise log to data\processed\noise_log_20260425.json
+2026-04-25 17:37:38,557 [INFO] Step 5: Stripping PII from reviews
+2026-04-25 17:37:38,557 [INFO] Step 6: Inserting reviews into database
+2026-04-25 17:37:38,557 [INFO] Inserted 0 reviews into database
+2026-04-25 17:37:38,558 [INFO] Step 7: Archiving reviews
+2026-04-25 17:37:38,593 [INFO] Ingestion completed: {'fetched': 400, 'deduped': 101, 'english': 98, 'noise_dropped': 98, 'inserted': 0, 'week_number': 17, 'year': 2026, 'ios_fetched': 200, 'android_fetched': 200, 'pii_stripped': 0}
+2026-04-25 17:37:38,594 [INFO] [INGEST] Inserted 0 reviews
+2026-04-25 17:37:39,241 [INFO] HTTP Request: POST https://oauth2.googleapis.com/token "HTTP/1.1 200 OK"
+2026-04-25 17:37:40,192 [INFO] HTTP Request: POST https://gmail.googleapis.com/gmail/v1/users/me/drafts "HTTP/1.1 200 OK"
+2026-04-25 17:37:40,194 [INFO] [INGEST] No reviews — notification email drafted
+2026-04-25 17:37:40,211 [INFO] [INGEST] No reviews — skipping AI pipeline
+2026-04-25 17:39:06,618 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-04-25 17:39:06,619 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-04-25 17:39:06,619 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-04-25 17:39:08,312 [INFO] [INGEST] Starting review ingestion
+2026-04-25 17:39:11,184 [INFO] Starting ingestion pipeline
+2026-04-25 17:39:11,184 [INFO] Step 1: Fetching reviews
+2026-04-25 17:39:11,189 [INFO] Fetching iOS reviews for app_id: 1404871703 via app-store-web-scraper
+2026-04-25 17:39:11,595 [INFO] Successfully fetched 200 iOS reviews
+2026-04-25 17:39:11,596 [INFO] Fetched 200 iOS reviews
+2026-04-25 17:39:11,597 [INFO] Fetching Android reviews for app_id: com.nextbillion.groww (attempt 1)
+2026-04-25 17:39:14,906 [INFO] Successfully fetched 200 Android reviews
+2026-04-25 17:39:14,906 [INFO] Fetched 200 Android reviews
+2026-04-25 17:39:14,907 [INFO] Step 2: Merging and deduplicating reviews
+2026-04-25 17:39:14,918 [INFO] Deduplication completed:
+2026-04-25 17:39:14,919 [INFO]   Total reviews: 400
+2026-04-25 17:39:14,919 [INFO]   Within-batch duplicates: 102
+2026-04-25 17:39:14,920 [INFO]   Cross-store duplicates: 197
+2026-04-25 17:39:14,920 [INFO]   Kept reviews: 101
+2026-04-25 17:39:14,920 [INFO] Step 3: Filtering English reviews
+2026-04-25 17:39:14,921 [INFO] Language filter: kept 98 English / discarded 3 non-English
+2026-04-25 17:39:14,921 [INFO] Step 4: Applying noise filters
+2026-04-25 17:39:14,924 [INFO] Saved noise log to data\processed\noise_log_20260425.json
+2026-04-25 17:39:14,926 [INFO] Step 5: Stripping PII from reviews
+2026-04-25 17:39:14,926 [INFO] Step 6: Inserting reviews into database
+2026-04-25 17:39:14,926 [INFO] Inserted 0 reviews into database
+2026-04-25 17:39:14,926 [INFO] Step 7: Archiving reviews
+2026-04-25 17:39:14,963 [INFO] Ingestion completed: {'fetched': 400, 'deduped': 101, 'english': 98, 'noise_dropped': 98, 'inserted': 0, 'week_number': 17, 'year': 2026, 'ios_fetched': 200, 'android_fetched': 200, 'pii_stripped': 0}
+2026-04-25 17:39:14,965 [INFO] [INGEST] Inserted 0 reviews
+2026-04-25 17:39:15,018 [INFO] [INGEST] No new reviews inserted, but 39 existing reviews found for week 17 — proceeding with AI pipeline
+2026-04-25 17:39:15,023 [INFO] [LOAD] Loading reviews from database
+2026-04-25 17:39:15,030 [INFO] [LOAD] Loaded 39 reviews from database
+2026-04-25 17:39:15,037 [INFO] [AI] Embedding and clustering reviews
+2026-04-25 17:39:27,590 [INFO] No device provided, using cpu
+2026-04-25 17:39:28,617 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 17:39:28,629 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/modules.json "HTTP/1.1 200 OK"
+2026-04-25 17:39:28,869 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 17:39:28,871 [WARNING] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-25 17:39:28,882 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-25 17:39:28,885 [INFO] Loading SentenceTransformer model from BAAI/bge-small-en-v1.5.
+2026-04-25 17:39:29,133 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 17:39:29,153 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-25 17:39:29,392 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 17:39:29,406 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/README.md "HTTP/1.1 200 OK"
+2026-04-25 17:39:29,655 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 17:39:29,667 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/modules.json "HTTP/1.1 200 OK"
+2026-04-25 17:39:29,904 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 17:39:29,918 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-04-25 17:39:30,157 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-04-25 17:39:30,400 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 17:39:30,411 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/config.json "HTTP/1.1 200 OK"
+2026-04-25 17:39:30,855 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-04-25 17:39:31,107 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-04-25 17:39:31,354 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-04-25 17:39:31,598 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-04-25 17:39:31,838 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 17:39:31,849 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-25 17:39:32,090 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 17:39:32,102 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/config.json "HTTP/1.1 200 OK"
+2026-04-25 17:39:32,342 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 17:39:32,353 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/config.json "HTTP/1.1 200 OK"
+2026-04-25 17:39:32,593 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 17:39:32,604 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-25 17:39:32,860 [INFO] HTTP Request: GET https://huggingface.co/api/models/BAAI/bge-small-en-v1.5/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-25 17:39:33,105 [INFO] HTTP Request: GET https://huggingface.co/api/models/BAAI/bge-small-en-v1.5/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-25 17:39:33,432 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 17:39:33,445 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-04-25 17:39:33,765 [INFO] HTTP Request: GET https://huggingface.co/api/models/BAAI/bge-small-en-v1.5 "HTTP/1.1 200 OK"
+2026-04-25 17:39:38,882 [INFO] [AI] Generated embeddings using BAAI/bge-small-en-v1.5
+2026-04-25 17:39:41,195 [INFO] [AI] Found 5 clusters using kmeans
+2026-04-25 17:39:41,205 [INFO] [AI] Labeling themes with LLM
+2026-04-25 17:39:41,949 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-25 17:39:42,853 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-25 17:39:42,874 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-25 17:39:42,875 [INFO] Retrying request to /openai/v1/chat/completions in 6.000000 seconds
+2026-04-25 17:39:49,205 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-25 17:39:49,227 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-25 17:39:49,229 [INFO] Retrying request to /openai/v1/chat/completions in 8.000000 seconds
+2026-04-25 17:39:59,056 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-25 17:39:59,079 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-25 17:39:59,081 [INFO] Retrying request to /openai/v1/chat/completions in 18.000000 seconds
+2026-04-25 17:40:17,781 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-25 17:40:17,793 [INFO] [AI] Labeled 5 themes
+2026-04-25 17:40:17,824 [INFO] [AI] Selected 3 quotes
+2026-04-25 17:40:17,831 [INFO] [REPORT] Building pulse note
+2026-04-25 17:40:17,868 [INFO] [REPORT] Generated pulse note with 141 words
+2026-04-25 17:40:17,873 [INFO] [MCP] Checking if doc already exists for this week
+2026-04-25 17:40:18,451 [INFO] HTTP Request: POST https://oauth2.googleapis.com/token "HTTP/1.1 200 OK"
+2026-04-25 17:40:19,454 [INFO] HTTP Request: GET https://www.googleapis.com/drive/v3/files?q=name%3D%27Groww+Weekly+Pulse+%E2%80%94+Week+17%2C+2026%27+and+mimeType%3D%27application%2Fvnd.google-apps.document%27&fields=files%28id%2CwebViewLink%2Cname%29 "HTTP/1.1 200 OK"
+2026-04-25 17:40:20,004 [INFO] HTTP Request: POST https://oauth2.googleapis.com/token "HTTP/1.1 200 OK"
+2026-04-25 17:40:20,943 [INFO] HTTP Request: GET https://www.googleapis.com/drive/v3/files?q=name%3D%27Groww+Weekly+Pulse+%E2%80%94+Week+17%2C+2026%27+and+mimeType%3D%27application%2Fvnd.google-apps.document%27&fields=files%28id%2CwebViewLink%2Cname%29 "HTTP/1.1 200 OK"
+2026-04-25 17:40:21,483 [INFO] HTTP Request: POST https://oauth2.googleapis.com/token "HTTP/1.1 200 OK"
+2026-04-25 17:40:23,142 [INFO] HTTP Request: POST https://www.googleapis.com/drive/v3/files "HTTP/1.1 200 OK"
+2026-04-25 17:40:24,257 [INFO] HTTP Request: POST https://docs.googleapis.com/v1/documents/18IYjfCF-vHijTGC7p0V7jt0173LGF9w-rxBKOHpK52o:batchUpdate "HTTP/1.1 200 OK"
+2026-04-25 17:40:25,128 [INFO] HTTP Request: POST https://docs.googleapis.com/v1/documents/18IYjfCF-vHijTGC7p0V7jt0173LGF9w-rxBKOHpK52o:batchUpdate "HTTP/1.1 200 OK"
+2026-04-25 17:40:26,303 [INFO] HTTP Request: POST https://www.googleapis.com/drive/v3/files/18IYjfCF-vHijTGC7p0V7jt0173LGF9w-rxBKOHpK52o/permissions "HTTP/1.1 200 OK"
+2026-04-25 17:40:27,074 [INFO] HTTP Request: GET https://www.googleapis.com/drive/v3/files/18IYjfCF-vHijTGC7p0V7jt0173LGF9w-rxBKOHpK52o?fields=webViewLink "HTTP/1.1 200 OK"
+2026-04-25 17:40:27,075 [INFO] [MCP] New doc created: https://docs.google.com/document/d/18IYjfCF-vHijTGC7p0V7jt0173LGF9w-rxBKOHpK52o/edit?usp=drivesdk
+2026-04-25 17:40:27,084 [INFO] [MCP] Creating email draft
+2026-04-25 17:40:27,633 [INFO] HTTP Request: POST https://oauth2.googleapis.com/token "HTTP/1.1 200 OK"
+2026-04-25 17:40:28,585 [INFO] HTTP Request: POST https://gmail.googleapis.com/gmail/v1/users/me/drafts "HTTP/1.1 200 OK"
+2026-04-25 17:40:28,586 [INFO] [MCP] Created email draft: r-8080924522911602065
+2026-04-25 17:40:28,603 [INFO] [MCP] Email creation failed: cannot access local variable 'os' where it is not associated with a value
+2026-04-25 17:40:28,607 [INFO] [ARCHIVE] Rotating archives
+2026-04-25 17:40:28,620 [INFO] [DONE] Pipeline completed successfully - 5 themes found
+2026-04-25 18:20:00,746 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-04-25 18:20:00,747 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-04-25 18:20:00,747 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-04-25 18:20:03,877 [INFO] [INGEST] Starting review ingestion
+2026-04-25 18:20:09,230 [INFO] Starting ingestion pipeline
+2026-04-25 18:20:09,230 [INFO] Step 1: Fetching reviews
+2026-04-25 18:20:09,243 [INFO] Fetching iOS reviews for app_id: 1404871703 via app-store-web-scraper
+2026-04-25 18:20:10,899 [INFO] Successfully fetched 200 iOS reviews
+2026-04-25 18:20:10,901 [INFO] Fetched 200 iOS reviews
+2026-04-25 18:20:10,901 [INFO] Fetching Android reviews for app_id: com.nextbillion.groww (attempt 1)
+2026-04-25 18:20:14,275 [INFO] Successfully fetched 200 Android reviews
+2026-04-25 18:20:14,276 [INFO] Fetched 200 Android reviews
+2026-04-25 18:20:14,276 [INFO] Step 2: Merging and deduplicating reviews
+2026-04-25 18:20:14,296 [INFO] Deduplication completed:
+2026-04-25 18:20:14,297 [INFO]   Total reviews: 400
+2026-04-25 18:20:14,297 [INFO]   Within-batch duplicates: 102
+2026-04-25 18:20:14,297 [INFO]   Cross-store duplicates: 197
+2026-04-25 18:20:14,297 [INFO]   Kept reviews: 101
+2026-04-25 18:20:14,297 [INFO] Step 3: Filtering English reviews
+2026-04-25 18:20:14,298 [INFO] Language filter: kept 98 English / discarded 3 non-English
+2026-04-25 18:20:14,298 [INFO] Step 4: Applying noise filters
+2026-04-25 18:20:14,301 [INFO] Saved noise log to data\processed\noise_log_20260425.json
+2026-04-25 18:20:14,303 [INFO] Step 5: Stripping PII from reviews
+2026-04-25 18:20:14,304 [INFO] Step 6: Inserting reviews into database
+2026-04-25 18:20:14,304 [INFO] Inserted 0 reviews into database
+2026-04-25 18:20:14,304 [INFO] Step 7: Archiving reviews
+2026-04-25 18:20:14,396 [INFO] Ingestion completed: {'fetched': 400, 'deduped': 101, 'english': 98, 'noise_dropped': 98, 'inserted': 0, 'week_number': 17, 'year': 2026, 'ios_fetched': 200, 'android_fetched': 200, 'pii_stripped': 0}
+2026-04-25 18:20:14,396 [INFO] [INGEST] Inserted 0 reviews
+2026-04-25 18:20:14,444 [INFO] [INGEST] No new reviews inserted, but 39 existing reviews found for week 17 — proceeding with AI pipeline
+2026-04-25 18:20:14,449 [INFO] [LOAD] Loading reviews from database
+2026-04-25 18:20:14,460 [INFO] [LOAD] Loaded 39 reviews from database
+2026-04-25 18:20:14,465 [INFO] [AI] Embedding and clustering reviews
+2026-04-25 18:20:25,176 [INFO] No device provided, using cpu
+2026-04-25 18:20:26,213 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 18:20:26,224 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/modules.json "HTTP/1.1 200 OK"
+2026-04-25 18:20:26,463 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 18:20:26,476 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-25 18:20:26,479 [INFO] Loading SentenceTransformer model from BAAI/bge-small-en-v1.5.
+2026-04-25 18:20:26,738 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 18:20:26,739 [WARNING] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-25 18:20:26,749 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-25 18:20:26,992 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 18:20:27,005 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/README.md "HTTP/1.1 200 OK"
+2026-04-25 18:20:27,253 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 18:20:27,263 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/modules.json "HTTP/1.1 200 OK"
+2026-04-25 18:20:27,505 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 18:20:27,517 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-04-25 18:20:28,192 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-04-25 18:20:28,443 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 18:20:28,454 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/config.json "HTTP/1.1 200 OK"
+2026-04-25 18:20:28,949 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-04-25 18:20:29,199 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-04-25 18:20:29,446 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-04-25 18:20:29,710 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-04-25 18:20:29,952 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 18:20:29,964 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-25 18:20:30,209 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 18:20:30,221 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/config.json "HTTP/1.1 200 OK"
+2026-04-25 18:20:30,469 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 18:20:30,479 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/config.json "HTTP/1.1 200 OK"
+2026-04-25 18:20:30,779 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 18:20:30,791 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-25 18:20:31,035 [INFO] HTTP Request: GET https://huggingface.co/api/models/BAAI/bge-small-en-v1.5/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-25 18:20:31,277 [INFO] HTTP Request: GET https://huggingface.co/api/models/BAAI/bge-small-en-v1.5/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-25 18:20:31,593 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 18:20:31,608 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-04-25 18:20:31,853 [INFO] HTTP Request: GET https://huggingface.co/api/models/BAAI/bge-small-en-v1.5 "HTTP/1.1 200 OK"
+2026-04-25 18:20:34,867 [INFO] [AI] Generated embeddings using BAAI/bge-small-en-v1.5
+2026-04-25 18:20:36,782 [INFO] [AI] Found 5 clusters using kmeans
+2026-04-25 18:20:36,791 [INFO] [AI] Labeling themes with LLM
+2026-04-25 18:20:37,908 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-25 18:20:39,269 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-25 18:20:39,311 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-25 18:20:39,311 [INFO] Retrying request to /openai/v1/chat/completions in 6.000000 seconds
+2026-04-25 18:20:45,560 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-25 18:20:45,590 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-25 18:20:45,590 [INFO] Retrying request to /openai/v1/chat/completions in 8.000000 seconds
+2026-04-25 18:20:54,169 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-25 18:20:54,194 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-25 18:20:54,195 [INFO] Retrying request to /openai/v1/chat/completions in 9.000000 seconds
+2026-04-25 18:21:03,511 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-25 18:21:03,526 [INFO] [AI] Labeled 5 themes
+2026-04-25 18:21:03,565 [INFO] [AI] Selected 3 quotes
+2026-04-25 18:21:03,572 [INFO] [REPORT] Building pulse note
+2026-04-25 18:21:03,613 [INFO] [REPORT] Generated pulse note with 162 words
+2026-04-25 18:21:03,619 [INFO] [MCP] Checking if doc already exists for this week
+2026-04-25 18:21:04,243 [INFO] HTTP Request: POST https://oauth2.googleapis.com/token "HTTP/1.1 200 OK"
+2026-04-25 18:21:05,169 [INFO] HTTP Request: GET https://www.googleapis.com/drive/v3/files?q=name%3D%27Groww+Weekly+Pulse+%E2%80%94+Week+17%2C+2026%27+and+mimeType%3D%27application%2Fvnd.google-apps.document%27&fields=files%28id%2CwebViewLink%2Cname%29 "HTTP/1.1 200 OK"
+2026-04-25 18:21:05,172 [INFO] [MCP] Reusing existing doc: https://docs.google.com/document/d/18IYjfCF-vHijTGC7p0V7jt0173LGF9w-rxBKOHpK52o/edit?usp=drivesdk
+2026-04-25 18:21:05,181 [INFO] [MCP] Creating email draft
+2026-04-25 18:21:05,716 [INFO] HTTP Request: POST https://oauth2.googleapis.com/token "HTTP/1.1 200 OK"
+2026-04-25 18:21:06,701 [INFO] HTTP Request: POST https://gmail.googleapis.com/gmail/v1/users/me/drafts "HTTP/1.1 200 OK"
+2026-04-25 18:21:06,702 [INFO] [MCP] Created email draft: r6661320218512757420
+2026-04-25 18:21:06,708 [INFO] [MCP] Email creation failed: cannot access local variable 'os' where it is not associated with a value
+2026-04-25 18:21:06,712 [INFO] [ARCHIVE] Rotating archives
+2026-04-25 18:21:06,725 [INFO] [DONE] Pipeline completed successfully - 5 themes found
+2026-04-25 19:18:05,948 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-04-25 19:18:05,949 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-04-25 19:18:05,949 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-04-25 19:18:08,444 [INFO] [INGEST] Starting review ingestion
+2026-04-25 19:18:13,406 [INFO] Starting ingestion pipeline
+2026-04-25 19:18:13,406 [INFO] Step 1: Fetching reviews
+2026-04-25 19:18:13,417 [INFO] Fetching iOS reviews for app_id: 1404871703 via app-store-web-scraper
+2026-04-25 19:18:15,172 [INFO] Successfully fetched 200 iOS reviews
+2026-04-25 19:18:15,172 [INFO] Fetched 200 iOS reviews
+2026-04-25 19:18:15,173 [INFO] Fetching Android reviews for app_id: com.nextbillion.groww (attempt 1)
+2026-04-25 19:18:19,180 [INFO] Successfully fetched 200 Android reviews
+2026-04-25 19:18:19,180 [INFO] Fetched 200 Android reviews
+2026-04-25 19:18:19,180 [INFO] Step 2: Merging and deduplicating reviews
+2026-04-25 19:18:19,201 [INFO] Deduplication completed:
+2026-04-25 19:18:19,202 [INFO]   Total reviews: 400
+2026-04-25 19:18:19,202 [INFO]   Within-batch duplicates: 102
+2026-04-25 19:18:19,202 [INFO]   Cross-store duplicates: 197
+2026-04-25 19:18:19,203 [INFO]   Kept reviews: 101
+2026-04-25 19:18:19,204 [INFO] Step 3: Filtering English reviews
+2026-04-25 19:18:19,205 [INFO] Language filter: kept 98 English / discarded 3 non-English
+2026-04-25 19:18:19,205 [INFO] Step 4: Applying noise filters
+2026-04-25 19:18:19,210 [INFO] Saved noise log to data\processed\noise_log_20260425.json
+2026-04-25 19:18:19,213 [INFO] Step 5: Stripping PII from reviews
+2026-04-25 19:18:19,213 [INFO] Step 6: Inserting reviews into database
+2026-04-25 19:18:19,213 [INFO] Inserted 0 reviews into database
+2026-04-25 19:18:19,213 [INFO] Step 7: Archiving reviews
+2026-04-25 19:18:19,316 [INFO] Ingestion completed: {'fetched': 400, 'deduped': 101, 'english': 98, 'noise_dropped': 98, 'inserted': 0, 'week_number': 17, 'year': 2026, 'ios_fetched': 200, 'android_fetched': 200, 'pii_stripped': 0}
+2026-04-25 19:18:19,316 [INFO] [INGEST] Inserted 0 reviews
+2026-04-25 19:18:19,401 [INFO] [INGEST] No new reviews inserted, but 39 existing reviews found for week 17 — proceeding with AI pipeline
+2026-04-25 19:18:19,408 [INFO] [LOAD] Loading reviews from database
+2026-04-25 19:18:19,419 [INFO] [LOAD] Loaded 39 reviews from database
+2026-04-25 19:18:19,426 [INFO] [AI] Embedding and clustering reviews
+2026-04-25 19:18:36,775 [INFO] No device provided, using cpu
+2026-04-25 19:18:37,838 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 19:18:37,838 [WARNING] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-25 19:18:37,849 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/modules.json "HTTP/1.1 200 OK"
+2026-04-25 19:18:38,105 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 19:18:38,120 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-25 19:18:38,125 [INFO] Loading SentenceTransformer model from BAAI/bge-small-en-v1.5.
+2026-04-25 19:18:38,363 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 19:18:38,373 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-25 19:18:38,611 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 19:18:38,623 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/README.md "HTTP/1.1 200 OK"
+2026-04-25 19:18:38,873 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 19:18:38,888 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/modules.json "HTTP/1.1 200 OK"
+2026-04-25 19:18:39,142 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 19:18:39,158 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-04-25 19:18:39,399 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-04-25 19:18:39,653 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 19:18:39,667 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/config.json "HTTP/1.1 200 OK"
+2026-04-25 19:18:40,148 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-04-25 19:18:40,393 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-04-25 19:18:40,637 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-04-25 19:18:40,881 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-04-25 19:18:41,126 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 19:18:41,138 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-25 19:18:41,396 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 19:18:41,407 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/config.json "HTTP/1.1 200 OK"
+2026-04-25 19:18:41,654 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 19:18:41,664 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/config.json "HTTP/1.1 200 OK"
+2026-04-25 19:18:41,909 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 19:18:41,923 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-25 19:18:42,171 [INFO] HTTP Request: GET https://huggingface.co/api/models/BAAI/bge-small-en-v1.5/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-25 19:18:42,413 [INFO] HTTP Request: GET https://huggingface.co/api/models/BAAI/bge-small-en-v1.5/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-25 19:18:42,801 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-25 19:18:42,812 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-04-25 19:18:43,061 [INFO] HTTP Request: GET https://huggingface.co/api/models/BAAI/bge-small-en-v1.5 "HTTP/1.1 200 OK"
+2026-04-25 19:18:50,010 [INFO] [AI] Generated embeddings using BAAI/bge-small-en-v1.5
+2026-04-25 19:18:52,750 [INFO] [AI] Found 5 clusters using kmeans
+2026-04-25 19:18:52,761 [INFO] [AI] Labeling themes with LLM
+2026-04-25 19:18:53,574 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-25 19:18:54,988 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-25 19:18:55,014 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-25 19:18:55,014 [INFO] Retrying request to /openai/v1/chat/completions in 14.000000 seconds
+2026-04-25 19:19:09,264 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-25 19:19:09,290 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-25 19:19:09,290 [INFO] Retrying request to /openai/v1/chat/completions in 8.000000 seconds
+2026-04-25 19:19:18,151 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-25 19:19:18,176 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-25 19:19:18,176 [INFO] Retrying request to /openai/v1/chat/completions in 13.000000 seconds
+2026-04-25 19:19:31,506 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-25 19:19:31,534 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-25 19:19:31,534 [INFO] Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+2026-04-25 19:19:37,009 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-25 19:19:37,025 [INFO] [AI] Labeled 5 themes
+2026-04-25 19:19:37,052 [INFO] [AI] Selected 3 quotes
+2026-04-25 19:19:37,057 [INFO] [REPORT] Building pulse note
+2026-04-25 19:19:37,095 [INFO] [REPORT] Generated pulse note with 142 words
+2026-04-25 19:19:37,102 [INFO] [MCP] Checking if doc already exists for this week
+2026-04-25 19:19:37,684 [INFO] HTTP Request: POST https://oauth2.googleapis.com/token "HTTP/1.1 200 OK"
+2026-04-25 19:19:38,610 [INFO] HTTP Request: GET https://www.googleapis.com/drive/v3/files?q=name%3D%27Groww+Weekly+App+Pulse+%E2%80%94+Week+17%2C+2026%27+and+mimeType%3D%27application%2Fvnd.google-apps.document%27&fields=files%28id%2CwebViewLink%2Cname%29 "HTTP/1.1 200 OK"
+2026-04-25 19:19:39,218 [INFO] HTTP Request: POST https://oauth2.googleapis.com/token "HTTP/1.1 200 OK"
+2026-04-25 19:19:40,707 [INFO] HTTP Request: GET https://www.googleapis.com/drive/v3/files?q=name%3D%27Groww+Weekly+App+Pulse+%E2%80%94+Week+17%2C+2026%27+and+mimeType%3D%27application%2Fvnd.google-apps.document%27&fields=files%28id%2CwebViewLink%2Cname%29 "HTTP/1.1 200 OK"
+2026-04-25 19:19:41,231 [INFO] HTTP Request: POST https://oauth2.googleapis.com/token "HTTP/1.1 200 OK"
+2026-04-25 19:19:42,917 [INFO] HTTP Request: POST https://www.googleapis.com/drive/v3/files "HTTP/1.1 200 OK"
+2026-04-25 19:19:43,990 [INFO] HTTP Request: POST https://docs.googleapis.com/v1/documents/1iDHdK7kc6J8e9vLRSGN94yO9eJGZ5rCPDeMu4inSCXg:batchUpdate "HTTP/1.1 200 OK"
+2026-04-25 19:19:44,951 [INFO] HTTP Request: POST https://docs.googleapis.com/v1/documents/1iDHdK7kc6J8e9vLRSGN94yO9eJGZ5rCPDeMu4inSCXg:batchUpdate "HTTP/1.1 200 OK"
+2026-04-25 19:19:45,799 [INFO] HTTP Request: POST https://docs.googleapis.com/v1/documents/1iDHdK7kc6J8e9vLRSGN94yO9eJGZ5rCPDeMu4inSCXg:batchUpdate "HTTP/1.1 200 OK"
+2026-04-25 19:19:46,976 [INFO] HTTP Request: POST https://www.googleapis.com/drive/v3/files/1iDHdK7kc6J8e9vLRSGN94yO9eJGZ5rCPDeMu4inSCXg/permissions "HTTP/1.1 200 OK"
+2026-04-25 19:19:47,751 [INFO] HTTP Request: GET https://www.googleapis.com/drive/v3/files/1iDHdK7kc6J8e9vLRSGN94yO9eJGZ5rCPDeMu4inSCXg?fields=webViewLink "HTTP/1.1 200 OK"
+2026-04-25 19:19:47,753 [INFO] [MCP] New doc created: https://docs.google.com/document/d/1iDHdK7kc6J8e9vLRSGN94yO9eJGZ5rCPDeMu4inSCXg/edit?usp=drivesdk
+2026-04-25 19:19:47,762 [INFO] [MCP] Creating email draft
+2026-04-25 19:19:48,349 [INFO] HTTP Request: POST https://oauth2.googleapis.com/token "HTTP/1.1 200 OK"
+2026-04-25 19:19:49,337 [INFO] HTTP Request: POST https://gmail.googleapis.com/gmail/v1/users/me/drafts "HTTP/1.1 200 OK"
+2026-04-25 19:19:49,338 [INFO] [MCP] Created email draft: r-2351556521365858870
+2026-04-25 19:19:49,355 [INFO] [MCP] Email creation failed: cannot access local variable 'os' where it is not associated with a value
+2026-04-25 19:19:49,360 [INFO] [ARCHIVE] Rotating archives
+2026-04-25 19:19:49,373 [INFO] [DONE] Pipeline completed successfully - 5 themes found

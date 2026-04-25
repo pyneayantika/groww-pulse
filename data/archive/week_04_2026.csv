@@ -1,0 +1,321 @@
+﻿Review ID,Store,Rating (1-5),Title,Review Text,Date,App Version,Language,PII Stripped,Suspicious,Week Number
+f5eb058400aa7ca142fd9e4b46a79ef125d2ade995fd6cec7a19d341cd3a00aa,android,1,,Transaction stuck in processing state for 48 hours. No update no resolution given.,2026-02-01,5.34.0,en,1,0,4
+b71504a68a6a4e41dc2274b6171fd5c0e910be8ace669c304a642d9dfb3017a0,android,1,,Refund not processed after 10 days. Support keeps saying it is under process only.,2026-02-01,5.34.0,en,1,0,4
+2858d80d8662f74202fe2aacc68ad675545a05cc44de97204e1544e281fad701,android,1,,Redemption amount not received after 7 days. Extremely poor payment processing.,2026-02-01,5.34.0,en,1,0,4
+e08df9b611984300a2d4fb0f7fcc5b8c5183a7e319637efbb48cefa46c2daf50,android,1,,SIP amount deducted twice this month. Double deduction happened without any reason.,2026-02-01,5.34.0,en,1,0,4
+389a6100cf80052e4d0f95cabc572885c14d2cf46921f3f2ac4e19dd24e24094,android,1,,App crashes every time during market hours. Cannot place orders due to crashes.,2026-02-01,5.34.0,en,1,0,4
+280341cefeca332685ffa742af1aeb5180d7b657c6e9aed6c0283daabc591095,ios,1,,Withdrawal pending for 5 days. Urgently need money but no response from support.,2026-02-01,5.34.0,en,1,0,4
+f3bf4b8eb9eb24e258de869665e9fea891dd6dfdbf295c74e31c6c6e9b2e7b46,ios,1,,Video KYC not working at all. App crashes during the verification process always.,2026-02-01,5.34.0,en,1,0,4
+81a8668622275369f25fde7cda5cbb5df6ef49de6b86aa92004de6c34be5e2d5,android,1,,Video KYC not working at all. App crashes during the verification process always.,2026-02-01,5.34.0,en,1,0,4
+97b9cafa59f203e3498db19419b4511255712bdf74ec83192659dfca29d6d001,android,1,,Withdrawal pending for 5 days. Urgently need money but no response from support.,2026-02-01,5.34.0,en,1,0,4
+d86656174ab0dfc20adc23ee8bdb69e20927174e4ec0f0c23db655fb4e59a06e,android,1,,Withdrawal pending for 5 days. Urgently need money but no response from support.,2026-02-01,5.34.0,en,1,0,4
+b487d464cac5c40a07ed55d2157778cb4d1f27d0941b6f872bc32df81611418a,ios,1,,App crashes every time during market hours. Cannot place orders due to crashes.,2026-02-01,5.34.0,en,1,0,4
+f777c7ced69f1a4f247db3035bfb2f01477a2c4616accab80bc07e59fffa5432,ios,1,,Customer support completely useless. Only bots reply. No human agent available.,2026-02-01,5.34.0,en,1,0,4
+0b5b03d54e189b52443a59ea73f5863e4fbb5318348f70d548055d61d727f863,ios,1,,Withdrawal pending for 5 days. Urgently need money but no response from support.,2026-02-01,5.34.0,en,1,0,4
+9a3e16b8d867f7a65c82d9d5127a944866e1430eebc74336e82f870503fde364,android,1,,Aadhaar verification keeps failing. Cannot complete KYC despite multiple attempts.,2026-02-01,5.34.0,en,1,0,4
+68d045cb420961c1669c5f4291fdda5e60cce97b929d921c3203a54aab92f8a6,ios,1,,Account opening rejected without any reason. Resubmitted 3 times still failing.,2026-02-01,5.34.0,en,1,0,4
+e3f756253050c7798796c01206f4c9b90868c6a8a58e48bab1d104941e8d1a6b,ios,1,,Customer support completely useless. Only bots reply. No human agent available.,2026-02-01,5.34.0,en,1,0,4
+7a7c80772f2de5923a0ebcd3d1bd9c5b7488fb5f54e25b28bd7e3013b9a9fb2d,android,1,,Redemption amount not received after 7 days. Extremely poor payment processing.,2026-02-01,5.34.0,en,1,0,4
+9baf91dc173b3d0696f65584520fb39d7d2ed3072c39516f9c87b4f14611518f,ios,1,,UPI payment failed but amount debited from my account. Need immediate refund.,2026-02-01,5.34.0,en,1,0,4
+2a80efab21c0bc629d6d87dbe4546b0ad8de14d07750279295f92932e0b858c7,ios,1,,Customer support completely useless. Only bots reply. No human agent available.,2026-02-01,5.34.0,en,1,0,4
+4b30311ec34e969beced77725b783c3a248fe0ff03ad374504caf50e0e0af4f0,android,1,,Redemption amount not received after 7 days. Extremely poor payment processing.,2026-02-01,5.34.0,en,1,0,4
+183c51e45368a13762c9c856e769b25fd55c1f9e93ac452e67e15b6bc5911c59,android,1,,Black screen appears after login. Have to restart phone to get app working again.,2026-02-01,5.34.0,en,1,0,4
+ddf6033e45b8bb226d5bcf1d4c29366f87792d0cb8bb175a42887eca6d551c3e,ios,1,,Withdrawal pending for 5 days. Urgently need money but no response from support.,2026-02-01,5.34.0,en,1,0,4
+fc66e5c573bceca2f6b093348226b9a0b32c31cc80f44d6fb9f46f92ab0600e5,android,1,,Money deducted from bank but investment not done. Transaction shows failed status.,2026-02-01,5.34.0,en,1,0,4
+8dedc82228fb4afcf18250827fcd3b8e502538b5de9bb25bf69fa76f445c6627,ios,1,,Black screen appears after login. Have to restart phone to get app working again.,2026-02-01,5.34.0,en,1,0,4
+2470dd206c7df77ce37015becfccb39af9289a59f04975964d79b259f2bab6aa,android,1,,Money deducted from bank but investment not done. Transaction shows failed status.,2026-02-01,5.34.0,en,1,0,4
+ddbaa5735a7505c23b55625a31e1e7deebd83dc38242085bbcabdaded1e5b785,ios,1,,OTP not received on registered mobile number. Cannot login to my account at all.,2026-01-31,5.34.0,en,1,0,4
+3212178a40ccab1584df31c7eeba6014d312b91f48f8debb4563de88fa6761b3,ios,1,,Video KYC not working at all. App crashes during the verification process always.,2026-01-31,5.34.0,en,1,0,4
+54aefba50dc1c2e0813466d611d3d1bf4de232384604fe39e7d4fae5889e24fc,ios,1,,Transaction stuck in processing state for 48 hours. No update no resolution given.,2026-01-31,5.34.0,en,1,0,4
+5bc0404651f2fd2bfe87da8258316540ea40d6a6812b28b48abea7ac3f4bd5a4,ios,1,,OTP not received on registered mobile number. Cannot login to my account at all.,2026-01-31,5.34.0,en,1,0,4
+150084ed78e98a3468bc465e209aeb1db926184d80b866f903154118f0b497ba,android,1,,Transaction stuck in processing state for 48 hours. No update no resolution given.,2026-01-31,5.34.0,en,1,0,4
+07cefc31cd29b2f5fa1efee35af542bebecc9a9a3d8acf8afeb2d1a44de3f73d,android,1,,Withdrawal pending for 5 days. Urgently need money but no response from support.,2026-01-31,5.34.0,en,1,0,4
+e2d8c18e4a62e92470aa8c67608e61e921931ab0590b3c77c8aff1077fa91ed8,ios,1,,Video KYC not working at all. App crashes during the verification process always.,2026-01-31,5.34.0,en,1,0,4
+e34e838a684f4634d5c8fd906239d182b7a1e1c3632556fae0ceab88fc4a4bb3,android,1,,SIP amount deducted twice this month. Double deduction happened without any reason.,2026-01-31,5.34.0,en,1,0,4
+13874f74115ed9f9d1fd068d80e4a6de502a5bba58a08b872ae8f4534f6fadfe,ios,1,,UPI payment failed but amount debited from my account. Need immediate refund.,2026-01-31,5.34.0,en,1,0,4
+1fac3cc383b0dc725ebaf5d64f469c2d3b04d78f486dff276b6c16500ef7882a,ios,1,,Money deducted from bank but investment not done. Transaction shows failed status.,2026-01-31,5.34.0,en,1,0,4
+70245f1511e1cf9f7bd0d27bc0ddb233e1775d0bbf6d69dd68716f73d7f7df3b,android,1,,Refund not processed after 10 days. Support keeps saying it is under process only.,2026-01-31,5.34.0,en,1,0,4
+50c4367d6df1d5e203fdb6a2c67500b962e96932ef7aa4d37242b6b2f0163203,android,1,,SIP amount deducted twice this month. Double deduction happened without any reason.,2026-01-31,5.34.0,en,1,0,4
+b9db1ea18613be4779a869222bda5b64fa36b30acb88af06ad191e63c0738704,ios,1,,Account opening rejected without any reason. Resubmitted 3 times still failing.,2026-01-31,5.34.0,en,1,0,4
+687b390a358a0b5da3b4d3e9d60e05560cf581a21f8078a3eedcd4b6922fd052,ios,1,,Account opening rejected without any reason. Resubmitted 3 times still failing.,2026-01-31,5.34.0,en,1,0,4
+d0387a0dba1f022ff54857c6ea1e48a32809c361b93d1ba42339caafc7eebc99,android,1,,Redemption amount not received after 7 days. Extremely poor payment processing.,2026-01-31,5.34.0,en,1,0,4
+8e890e431a9a8e41995dd08e00d8296f9fbe14a8d72431fb012dc9d110a1b403,ios,1,,Money deducted from bank but investment not done. Transaction shows failed status.,2026-01-31,5.34.0,en,1,0,4
+156fdf5b068290a9f7b5c143fd69eafb56ede07e1143daa171e30f7ab02ff10e,ios,1,,SIP amount deducted twice this month. Double deduction happened without any reason.,2026-01-31,5.34.0,en,1,0,4
+3e0fb0ceebbc8dc49d0acc48a3b721a4ea058a739d0c8a9bd69b8346e24ff5fd,ios,1,,Aadhaar verification keeps failing. Cannot complete KYC despite multiple attempts.,2026-01-31,5.34.0,en,1,0,4
+a689140c56dab7f279f6327a9e89dcc9d7c9d129db411d8809c432068b6bd708,ios,1,,Transaction stuck in processing state for 48 hours. No update no resolution given.,2026-01-31,5.34.0,en,1,0,4
+e6f228ec6cc44e2a7f3a0eb10b0fc94132ee25b80c504ab3c112cf2b5d177b72,android,1,,Email support non-existent. Sent 3 emails with no reply. Disappointed with Groww.,2026-01-31,5.34.0,en,1,0,4
+b09786ecfb5ee1fccdc7abce4c4657ceec622047cc4538ed2b3b2b9071be3019,android,1,,SIP amount deducted twice this month. Double deduction happened without any reason.,2026-01-31,5.34.0,en,1,0,4
+ca8d25e05e13be6f07bfffd3e76b2b51ef6dc87d3425ff1ac0f658e12fe6b065,android,1,,Account opening rejected without any reason. Resubmitted 3 times still failing.,2026-01-31,5.34.0,en,1,0,4
+cc497a6b7e6fa1545f0fd6450efdc24adc717cfe9adc0c12d7dee8d415f0a33c,android,1,,Black screen appears after login. Have to restart phone to get app working again.,2026-01-31,5.34.0,en,1,0,4
+27363b84f0ca2b9749efd9d305b63701bce5d146e9ca5343a3d73710b428509c,ios,1,,Email support non-existent. Sent 3 emails with no reply. Disappointed with Groww.,2026-01-31,5.34.0,en,1,0,4
+655ab328d0a069156894723d37fb84684cba8ed1ecd5b6234b3e517d0d3eddef,android,1,,Withdrawal pending for 5 days. Urgently need money but no response from support.,2026-01-31,5.34.0,en,1,0,4
+7a5fb3518e872467996e1f0cd8246ab40c368cd9bd8e0c6b7d84c3b4bfa14d01,android,1,,OTP not received on registered mobile number. Cannot login to my account at all.,2026-01-31,5.34.0,en,1,0,4
+12ba7493838c505a043db34e1c3535c256b040c1d62024756152165370701889,android,1,,Video KYC not working at all. App crashes during the verification process always.,2026-01-31,5.34.0,en,1,0,4
+783b62965e33880e87b957d69104b26820976e63b05337d59c8b75a150fb121f,android,1,,KYC verification stuck for 3 days. Documents uploaded but no update from team.,2026-01-30,5.34.0,en,1,0,4
+b9725a610f53891abace6549de70fc7ca335db41b310d61f6ea83cf20dc888d7,ios,1,,Raised ticket 7 days ago. No response received. Very poor customer service.,2026-01-30,5.34.0,en,1,0,4
+25880714f789e555c85b7c8f97d58344b7bfe5313164859c78a7d0d93058f185,ios,1,,Account opening rejected without any reason. Resubmitted 3 times still failing.,2026-01-30,5.34.0,en,1,0,4
+ea58b4a7c401531a07c0e19f6d287adac5057b6315a75c30b330594590e54207,android,1,,Transaction stuck in processing state for 48 hours. No update no resolution given.,2026-01-30,5.34.0,en,1,0,4
+302536cfa523bdbb9e3878e55b541cc19b3c16dac27db872fb5dbebd0cb474d0,android,1,,Video KYC not working at all. App crashes during the verification process always.,2026-01-30,5.34.0,en,1,0,4
+325882f4aed457784e1fae42f13e845e03284cc9dea9fe5097e26374ed15c7cf,android,1,,Email support non-existent. Sent 3 emails with no reply. Disappointed with Groww.,2026-01-30,5.34.0,en,1,0,4
+93b3418d136e385d1e286a3d0697064dfc3a9ccd4da7d205becd7adbeea228c8,android,1,,UPI payment failed but amount debited from my account. Need immediate refund.,2026-01-30,5.34.0,en,1,0,4
+e3b785b55dbaefdda18bad021142d85070f529dce2d2fcfe604879f9be62b222,android,1,,Money deducted from bank but investment not done. Transaction shows failed status.,2026-01-30,5.34.0,en,1,0,4
+77038cb66510b3b7551457f63e5d03d27983038dd50a1392de11bec06f37de4b,android,1,,Customer support completely useless. Only bots reply. No human agent available.,2026-01-30,5.34.0,en,1,0,4
+4184bc3568f1be3d81cfa83cf1d2a4b7255791f8c606e5c7be9886e8d8f0a48c,ios,1,,Email support non-existent. Sent 3 emails with no reply. Disappointed with Groww.,2026-01-30,5.34.0,en,1,0,4
+1e650784551ad3b48f38eb5b342669679f20d5f871579e0dbfff07e89770978f,android,1,,Raised ticket 7 days ago. No response received. Very poor customer service.,2026-01-30,5.34.0,en,1,0,4
+d9d690bfcf57e960851ef4707f09ccc5bf24eb77fb738b709fbf10c588d224a0,android,1,,Withdrawal pending for 5 days. Urgently need money but no response from support.,2026-01-30,5.34.0,en,1,0,4
+b6ae2535361fd9dfdc02c17616f027f4ea2c72975f562c0a71f0a00b15c75938,ios,1,,App crashes every time during market hours. Cannot place orders due to crashes.,2026-01-30,5.34.0,en,1,0,4
+4dc555c07776a2bb0be1f5bb0c5c72c289ee43dadb390baf6aa6b60b4513fbda,android,1,,Withdrawal pending for 5 days. Urgently need money but no response from support.,2026-01-30,5.34.0,en,1,0,4
+c56d735ccda86eb97c1d664206c631ce8132406ce69b182f8022ab18ab9ff23a,ios,1,,Raised ticket 7 days ago. No response received. Very poor customer service.,2026-01-30,5.34.0,en,1,0,4
+f01f70d741d98aeccd7d71ca4d75ccea3d60d7db3f8de35576280012f35cbc9c,ios,1,,Redemption amount not received after 7 days. Extremely poor payment processing.,2026-01-30,5.34.0,en,1,0,4
+9fb53eb3073269e5c787a233a3e2f2380f7bae0c0263b09a84ddd9ee1e75737c,android,1,,Email support non-existent. Sent 3 emails with no reply. Disappointed with Groww.,2026-01-29,5.34.0,en,1,0,4
+902b4b1ee71caf15281c7a0e5622ae87f108619e7f6cdfde861ee69c5aae9fbe,android,1,,Video KYC not working at all. App crashes during the verification process always.,2026-01-29,5.34.0,en,1,0,4
+e1ebacbb63dc45a608434327dc5a3c7006eb03545a38e46bb6a9f0691de3cb3f,android,1,,Refund not processed after 10 days. Support keeps saying it is under process only.,2026-01-29,5.34.0,en,1,0,4
+3a7d847fe62331fb4cec1d1fdab98599841bb8728e94b39f81693bb6c19f856b,android,1,,Refund not processed after 10 days. Support keeps saying it is under process only.,2026-01-29,5.34.0,en,1,0,4
+a3b030849ae3c0a1913bf00397f9183521421ebe5d32c7e6235c6f40a1d0a132,android,1,,Video KYC not working at all. App crashes during the verification process always.,2026-01-29,5.34.0,en,1,0,4
+16633df4b00b5f47051f2422150938c613a1957d81f1a699b6e2c8734aca1f31,ios,1,,Customer support completely useless. Only bots reply. No human agent available.,2026-01-29,5.34.0,en,1,0,4
+0073b967855fdfed5f6a04ed594d4f44ad05a1bd20ebed769d58bf43d4af99bc,ios,1,,Account opening rejected without any reason. Resubmitted 3 times still failing.,2026-01-29,5.34.0,en,1,0,4
+e1017df8e6ca250159dbb58d88cb3a0689a63d1cc3066c4e3424ad087e239e61,ios,1,,Black screen appears after login. Have to restart phone to get app working again.,2026-01-29,5.34.0,en,1,0,4
+ef42d8bfe9144a92a09687883d72f71afb7331713823c2d074459c2fb823f065,ios,1,,SIP amount deducted twice this month. Double deduction happened without any reason.,2026-01-29,5.34.0,en,1,0,4
+e384a51e9a2fac7d51f5370fd28b5d7bc48d2d3b0512942942cbdef454137c16,ios,1,,Email support non-existent. Sent 3 emails with no reply. Disappointed with Groww.,2026-01-29,5.34.0,en,1,0,4
+92488d402b5c4f532ff757ff5f88e1dc4bec7fa0d0fc63af11876a0c3283753c,android,1,,Aadhaar verification keeps failing. Cannot complete KYC despite multiple attempts.,2026-01-29,5.34.0,en,1,0,4
+f3ce2b36e8584150adefe1cf30fc89a0a0d72e2a5aa9a27c9a9c484416818a10,android,1,,OTP not received on registered mobile number. Cannot login to my account at all.,2026-01-29,5.34.0,en,1,0,4
+6c8ed6d6b5094c45e63c87a0455a51390282b6319b33ea46e30cec9a8208c893,android,1,,Email support non-existent. Sent 3 emails with no reply. Disappointed with Groww.,2026-01-29,5.34.0,en,1,0,4
+c1004766d34a69fa4823a6156e7dfe17a594a087e0bf153a954bfc38911c9b27,ios,1,,Aadhaar verification keeps failing. Cannot complete KYC despite multiple attempts.,2026-01-29,5.34.0,en,1,0,4
+5243b79829af8c9c65047e6be39f238bc2e7f234e407c46b409326bae35852cf,android,1,,Redemption amount not received after 7 days. Extremely poor payment processing.,2026-01-29,5.34.0,en,1,0,4
+c8d241bf3e718af605ab79269e969aea2777f26e0fd2f78fbccf914ffb6eacff,ios,1,,OTP not received on registered mobile number. Cannot login to my account at all.,2026-01-29,5.34.0,en,1,0,4
+2d60fd993caf777a7c41454f2b5bb53716028656aa2ac5fc4faa02fec36b7b18,android,1,,UPI payment failed but amount debited from my account. Need immediate refund.,2026-01-29,5.34.0,en,1,0,4
+64c8fc960af95dfb4f5cf309a74d133fc9bd9844f41789bbd203f199a9fe4c3b,ios,1,,Withdrawal pending for 5 days. Urgently need money but no response from support.,2026-01-29,5.34.0,en,1,0,4
+82ed11ba9e1df3494abe8efe2e5b5aee4f20602e6e2792e42835026d109e8161,ios,1,,Transaction stuck in processing state for 48 hours. No update no resolution given.,2026-01-29,5.34.0,en,1,0,4
+32a420145130eb3cca69875dae451f2d89690cff5531bff97a387ec095818f10,ios,1,,Email support non-existent. Sent 3 emails with no reply. Disappointed with Groww.,2026-01-29,5.34.0,en,1,0,4
+a2c7d9826e73bd7a696b185554222fbbe2c9f31e615827db7b521d847ed3ee97,ios,1,,Customer support completely useless. Only bots reply. No human agent available.,2026-01-29,5.34.0,en,1,0,4
+792da8b43f36b020ddad48ea2c6fccd72d4ee421b605a3b2589cdaae3b2736fd,ios,1,,SIP amount deducted twice this month. Double deduction happened without any reason.,2026-01-29,5.34.0,en,1,0,4
+e1f3c29abe5867de9b5a285c5dbd95486419bb06b0fe1785ceee685137b72013,ios,1,,App crashes every time during market hours. Cannot place orders due to crashes.,2026-01-29,5.34.0,en,1,0,4
+8be62f76382be3042c4d6d0120622b048beee1d997cb127715a4bd3c605b5dfc,android,1,,SIP amount deducted twice this month. Double deduction happened without any reason.,2026-01-29,5.34.0,en,1,0,4
+f90938021ca503a5f64e52cea28a1622c395295eaae78f452b7d10f455ea8205,android,1,,SIP amount deducted twice this month. Double deduction happened without any reason.,2026-01-29,5.34.0,en,1,0,4
+a989fa94e641af868ad35e06bf4e612de1a6dd5200dac81ed9eb6ddab9634359,android,1,,Account opening rejected without any reason. Resubmitted 3 times still failing.,2026-01-29,5.34.0,en,1,0,4
+5adac1e9d0acd8870df04fb22aae29b5f7a3d89ab1c7add910707e5c1a85cc60,ios,1,,Redemption amount not received after 7 days. Extremely poor payment processing.,2026-01-28,5.34.0,en,1,0,4
+ce3e551c6832622a80006d9073819161bc21ffdd87699e963e980ccf985eb097,ios,1,,Email support non-existent. Sent 3 emails with no reply. Disappointed with Groww.,2026-01-28,5.34.0,en,1,0,4
+98878ab61ef711100524c22bf22ac1268f6ca2b150173608a7d54e8319350ec1,android,1,,Transaction stuck in processing state for 48 hours. No update no resolution given.,2026-01-28,5.34.0,en,1,0,4
+e59426bd567c38ffd2cfed8bad735d10a5852fb2d5bd818d17c2bb53e1e3c063,android,1,,UPI payment failed but amount debited from my account. Need immediate refund.,2026-01-28,5.34.0,en,1,0,4
+b11b0ef58cd1a013c4b0d133f736e5a914b3bf9c648f37742f14945d03aa205b,android,1,,Black screen appears after login. Have to restart phone to get app working again.,2026-01-28,5.34.0,en,1,0,4
+e25b4cc18946a41a8fc3d6b5a70f9a17b43cf6f76016a340833df3083b215f18,android,1,,Raised ticket 7 days ago. No response received. Very poor customer service.,2026-01-28,5.34.0,en,1,0,4
+b9c8223ff9afa6035ad65c083cd18c3874f386e3c37b10d096b5f1002b77e4a8,android,1,,Withdrawal pending for 5 days. Urgently need money but no response from support.,2026-01-28,5.34.0,en,1,0,4
+917bd299a5fc64bdadeb2bb09d9be2c239093aa3926b53f3da0efbcd84f69884,ios,1,,Video KYC not working at all. App crashes during the verification process always.,2026-01-28,5.34.0,en,1,0,4
+314b45bdb62d0bc374cd3edd40622076ae7e39eceb8422acea690d2daf6d2b92,ios,1,,Refund not processed after 10 days. Support keeps saying it is under process only.,2026-01-28,5.34.0,en,1,0,4
+72ca314e18e88fe260a065c9c51f8cb4a068bb4caaf3d0f980e2a74d1ae8e08d,ios,1,,OTP not received on registered mobile number. Cannot login to my account at all.,2026-01-28,5.34.0,en,1,0,4
+353da501f01d042f67932a99eff39746cd576905ad05f34616c22d9c82780b8f,android,1,,Email support non-existent. Sent 3 emails with no reply. Disappointed with Groww.,2026-01-28,5.34.0,en,1,0,4
+58d1d8097a7a4734a31bc29944c335711826fd1d2724a2fc6dbfd3bea7e24c10,ios,1,,Account opening rejected without any reason. Resubmitted 3 times still failing.,2026-01-28,5.34.0,en,1,0,4
+5a958d0db1db49d313b94b4d83e0d896d6382357053f8fb6b0ed4d248395037f,android,1,,Black screen appears after login. Have to restart phone to get app working again.,2026-01-28,5.34.0,en,1,0,4
+7d527d7c78b652a29a6b19d4c754bea0bf96195da7a0eb33d8a61e0ff96ee0cc,android,1,,UPI payment failed but amount debited from my account. Need immediate refund.,2026-01-28,5.34.0,en,1,0,4
+bf0fc138b225acaf07e4d88b0e1d2cc508c1f993c15030cf26d68ca9e5dc203c,ios,1,,Withdrawal pending for 5 days. Urgently need money but no response from support.,2026-01-28,5.34.0,en,1,0,4
+3e130f663697f303013b5888e0b84aca2a13c2a9f114fa209e567881da758bdf,android,1,,UPI payment failed but amount debited from my account. Need immediate refund.,2026-01-28,5.34.0,en,1,0,4
+7d774ed284a4d135e5cc7acb44d037cc23510efa867b1e1e912e4771a96dbc36,android,1,,KYC verification stuck for 3 days. Documents uploaded but no update from team.,2026-01-28,5.34.0,en,1,0,4
+b9985227b1f0c8091f7d5f42c50868c6d9a35885fa07448f95bcd8613d1ab06b,ios,1,,Redemption amount not received after 7 days. Extremely poor payment processing.,2026-01-28,5.34.0,en,1,0,4
+e5e5e4cfe6d99b78f231df5c051b83eabb61311a8f9a534bccb886c590b9123b,ios,1,,Aadhaar verification keeps failing. Cannot complete KYC despite multiple attempts.,2026-01-28,5.34.0,en,1,0,4
+27f6cb1111f2a40dd7fcb6d3b8f89712f4974a1fe732107ce4f5843d29fe73e2,ios,1,,App crashes every time during market hours. Cannot place orders due to crashes.,2026-01-28,5.34.0,en,1,0,4
+cb9e1751e6941bf00f75cdf8aa3f3471257c91591cca1cdb20b071f5e41b90c7,ios,1,,SIP amount deducted twice this month. Double deduction happened without any reason.,2026-01-28,5.34.0,en,1,0,4
+e0868cf7a4b7ba9e8b148ae9e55eb9193c25014b76702fd69445ac8c226f16d8,android,1,,OTP not received on registered mobile number. Cannot login to my account at all.,2026-01-27,5.34.0,en,1,0,4
+85efbe99c18b66f9a5a4e7b16e9fb7a059e35fa972ce3062d6671129b429c43c,android,1,,Transaction stuck in processing state for 48 hours. No update no resolution given.,2026-01-27,5.34.0,en,1,0,4
+719b9e8fe49aed5e84b7ec67753c827faf34f9e11d46a2a34cab7f981c77069f,android,1,,App crashes every time during market hours. Cannot place orders due to crashes.,2026-01-27,5.34.0,en,1,0,4
+2ec5cd6624aef28da086d991301f00ac42fa22619388d46cbae891f964e9dcf4,ios,1,,Transaction stuck in processing state for 48 hours. No update no resolution given.,2026-01-27,5.34.0,en,1,0,4
+f6f5ea9e000811444d6be76750e32b0af2326aedbf8e73be3bd9bb06646bb621,ios,1,,Redemption amount not received after 7 days. Extremely poor payment processing.,2026-01-27,5.34.0,en,1,0,4
+328d73f8f3ff7a2341bfedbe71594c1e88d000c2db900e3a8f169abb379adc0f,ios,1,,Video KYC not working at all. App crashes during the verification process always.,2026-01-27,5.34.0,en,1,0,4
+8e68d9e21880773b7424567ab88a5e7c86a4968e1ad9c050d654fea35365e23b,ios,1,,Raised ticket 7 days ago. No response received. Very poor customer service.,2026-01-27,5.34.0,en,1,0,4
+15c3546c013aec5476c414ba79701753b6610ff4e973d76b25ec31271a57786c,ios,1,,SIP amount deducted twice this month. Double deduction happened without any reason.,2026-01-27,5.34.0,en,1,0,4
+2ffd8f4333f79832bf68d1fe47c879bca8761bce47ebdadf5d95e0b118abe7ae,android,1,,SIP amount deducted twice this month. Double deduction happened without any reason.,2026-01-27,5.34.0,en,1,0,4
+991afd315242589156cc35e10dd7550b07bfd4fef0f74433cd4a9a6b31f5ae5a,ios,1,,Raised ticket 7 days ago. No response received. Very poor customer service.,2026-01-27,5.34.0,en,1,0,4
+e51a9298dd0f01538b66ef89920eae9a96d12ab307323255e74be0aebd7b9af1,ios,1,,Transaction stuck in processing state for 48 hours. No update no resolution given.,2026-01-27,5.34.0,en,1,0,4
+23a3d786904710f3acdec10893f51f0f157eb30eacee981878448eb8f1ad3690,android,1,,Customer support completely useless. Only bots reply. No human agent available.,2026-01-27,5.34.0,en,1,0,4
+b30b539c284c44caec3d24de34d215c048b6f0cdd2d4b884c8f2be21d72e035b,ios,1,,Aadhaar verification keeps failing. Cannot complete KYC despite multiple attempts.,2026-01-27,5.34.0,en,1,0,4
+1ec0b22d6ff32054f6fd7d57c75ab1e2eb06961926d8b784e4b4af7960d231cd,android,1,,Account opening rejected without any reason. Resubmitted 3 times still failing.,2026-01-27,5.34.0,en,1,0,4
+ddd1b579a41d3084522f2dd336c0a17caf5153a63f228407443df8d5585eecfa,android,1,,Money deducted from bank but investment not done. Transaction shows failed status.,2026-01-27,5.34.0,en,1,0,4
+305c72c6aa0a5b5655ac4c50e00dce2602d8ebe0b0120326fe7a7bb616c3517f,ios,1,,Email support non-existent. Sent 3 emails with no reply. Disappointed with Groww.,2026-01-27,5.34.0,en,1,0,4
+cc8c841aa805646735f78cc0996aa5d9f08824df93c942b2fe83ed74ce4d321b,ios,1,,App crashes every time during market hours. Cannot place orders due to crashes.,2026-01-27,5.34.0,en,1,0,4
+d507b40b1fc1163afa8f096f457dfc5a2e454331bdc12821a49a9edb6ae32523,ios,1,,Email support non-existent. Sent 3 emails with no reply. Disappointed with Groww.,2026-01-27,5.34.0,en,1,0,4
+c33a8db11db73c8de5897e0a7d8a8bca8cef12507d1789d8fced3d3d8f5ee351,android,1,,App crashes every time during market hours. Cannot place orders due to crashes.,2026-01-27,5.34.0,en,1,0,4
+7edaf2b8fe3f623675b1b3dbdfdf88bf3e5d2b19b11f01360cf89083b1a60748,android,1,,Refund not processed after 10 days. Support keeps saying it is under process only.,2026-01-27,5.34.0,en,1,0,4
+42d2a493ef60b8cf4e12bb2d48d05d17ff1a7b9364215087ee9339e09ab14141,android,1,,OTP not received on registered mobile number. Cannot login to my account at all.,2026-01-27,5.34.0,en,1,0,4
+98016510d76586dacfa64a9b0ed9b532defe0165e35b6e048468ea2780ae26d6,android,1,,Transaction stuck in processing state for 48 hours. No update no resolution given.,2026-01-27,5.34.0,en,1,0,4
+0da005c445195e93546cd6aa199b02865b2bd9265d4a459bc59fe369eed1c0b7,ios,1,,Black screen appears after login. Have to restart phone to get app working again.,2026-01-27,5.34.0,en,1,0,4
+036d738eff7627d636df35322d5756678fcbd730223f5a06f78129f156b9eb11,android,1,,Transaction stuck in processing state for 48 hours. No update no resolution given.,2026-01-27,5.34.0,en,1,0,4
+81c7d0c6063aad5c7afe81d3dc68d79dcf0b0e514b90164ffec2a0658c073389,android,1,,Money deducted from bank but investment not done. Transaction shows failed status.,2026-01-27,5.34.0,en,1,0,4
+acebe1365d86bec2c20d83aded9a97cdb8ea1a93fef2b121343cdcba89140340,ios,1,,Customer support completely useless. Only bots reply. No human agent available.,2026-01-26,5.34.0,en,1,0,4
+a4f6acee70228b9e0dc17157ac70eb83ce5f076a002454ee3451008c60ec6e9b,ios,1,,App crashes every time during market hours. Cannot place orders due to crashes.,2026-01-26,5.34.0,en,1,0,4
+539acc67db905e392775573aaf77b415815db2bf295b6474884bca9a13cea30e,ios,1,,KYC verification stuck for 3 days. Documents uploaded but no update from team.,2026-01-26,5.34.0,en,1,0,4
+1814045cdbf2e2782b4e50a56d905321dbf7d89e1fd97a704feccd4a81aebe2e,android,1,,SIP amount deducted twice this month. Double deduction happened without any reason.,2026-01-26,5.34.0,en,1,0,4
+7d5135eb836f6c70666336eea7f42aaf3b13dfa9730ddce3c8bef5f249083536,ios,1,,KYC verification stuck for 3 days. Documents uploaded but no update from team.,2026-01-26,5.34.0,en,1,0,4
+ad3ba889cad8b0adc60ebd361e71518442eb13dcd06d82382d9babff00bfd144,ios,1,,UPI payment failed but amount debited from my account. Need immediate refund.,2026-01-26,5.34.0,en,1,0,4
+d292d6a992855977f5365650339ebb00cab8ab81dddb1af0aa0bb278a24fee12,android,1,,UPI payment failed but amount debited from my account. Need immediate refund.,2026-01-26,5.34.0,en,1,0,4
+7d64aa5e813f089146699d7072c53f942c972c34d013c93d625d0c5a10f8f3d9,ios,1,,Refund not processed after 10 days. Support keeps saying it is under process only.,2026-01-26,5.34.0,en,1,0,4
+ea0eac910575761c88dad87affe0ef3c3b6640b05a30057e418936c0c3727c14,android,1,,Video KYC not working at all. App crashes during the verification process always.,2026-01-26,5.34.0,en,1,0,4
+a4329764ad6e380962fdf897550bbec4c59959476d033bb8e1f386fa1e125b4d,ios,1,,UPI payment failed but amount debited from my account. Need immediate refund.,2026-01-26,5.34.0,en,1,0,4
+1bec2a52f2949ac47aae1dde717ed486e2cc0f40f6f684f608d92a8cf476ddf1,ios,1,,Transaction stuck in processing state for 48 hours. No update no resolution given.,2026-01-26,5.34.0,en,1,0,4
+e85ac25ee2ceb55efbc9a5dc3081372e5e8fa3842353c46c8a58d17caf3b124c,android,1,,Raised ticket 7 days ago. No response received. Very poor customer service.,2026-01-26,5.34.0,en,1,0,4
+71365647d18149c288ffc866aa805b7e66b7ac345b685e5fb1ecff0731a07e97,android,1,,Raised ticket 7 days ago. No response received. Very poor customer service.,2026-01-26,5.34.0,en,1,0,4
+f0413731a591eb7f54b6a2eddc261bcca4e45f1d3417d35fe51c9ebba8a3073c,ios,2,,Login loop issue. App keeps logging out automatically and asking for OTP again.,2026-02-01,5.34.0,en,1,0,4
+489c08ffb87923f47c0ce158eca1a8f7a3eae0e4f8f3a1c00f2acd537db1e485,ios,2,,Support chat takes forever. Issue unresolved even after multiple follow-ups daily.,2026-02-01,5.34.0,en,1,0,4
+33bd4250b18a23d956161c1d05bd592a31a6628395b52dc2a4d9dae286c07d2b,ios,2,,Login loop issue. App keeps logging out automatically and asking for OTP again.,2026-02-01,5.34.0,en,1,0,4
+92bd56a07b68c014596a98a10b55fbcdcf999fb6e4c3c65b77c02c6c26ed39d8,android,2,,New user registration is too complicated. Too many steps and keeps failing midway.,2026-02-01,5.34.0,en,1,0,4
+5bf11cc0d6029d22dd03978446aabd6efc0fb594472be450bd20247d373e24f6,ios,2,,Bank account linking fails every time I try. Very difficult to add new bank here.,2026-02-01,5.34.0,en,1,0,4
+80183b783177ac58d9958bfd6955fadf648a9854a249b6a677fc6b32e5859e58,android,2,,Bank account linking fails every time I try. Very difficult to add new bank here.,2026-02-01,5.34.0,en,1,0,4
+3f859548df35250904f70077c41abfa5afcce89f28effe0176c7f0ff4262bf3f,ios,2,,KYC process is very slow. Other apps complete it in minutes but Groww takes days.,2026-02-01,5.34.0,en,1,0,4
+c83d6374923c5d292bc6a562309d7561f1af7bc5af831fc5afb7a628107aa730,android,2,,Support chat takes forever. Issue unresolved even after multiple follow-ups daily.,2026-02-01,5.34.0,en,1,0,4
+84892502ac27ea7ba3b3fb1abf37c08c2b90fda199c15a1f6ea5f1cc7e9ff4a0,ios,2,,Holdings value showing incorrect amount. Manual calculation gives different result.,2026-02-01,5.34.0,en,1,0,4
+92239d24fa3c436cdec1c314d87c0cdd890e8a5fc8068e4b4a6e360e0f517400,android,2,,Support chat takes forever. Issue unresolved even after multiple follow-ups daily.,2026-02-01,5.34.0,en,1,0,4
+ff95c30066da28b4463cae283dc55d1e3be9e64e806f537e5ee28af0ea6d9795,ios,2,,NAV updates are delayed by hours. Real time pricing would make this much better.,2026-02-01,5.34.0,en,1,0,4
+daaf9fe79a00dd48ddec1de7c1bc5de0d2aae26756c38dc490e140e6afd9a7b9,ios,2,,Fund transfer takes too long. Other apps credit instantly but Groww takes days.,2026-02-01,5.34.0,en,1,0,4
+b30a95d1d914fb36b8416f723be997c489e201ce7d3066711db46b73eae477c8,android,2,,App is extremely slow. Takes 30 seconds to load the portfolio page every time.,2026-01-31,5.34.0,en,1,0,4
+b9636728667f9f4bf9fb4c7a5b2d7a6b26b0de829ee2c35c1b0085456f3c74cb,ios,2,,No callback option available. Cannot reach anyone to resolve urgent account issue.,2026-01-31,5.34.0,en,1,0,4
+e5b46d458b0e2d215eba6b7d24997f7e388f3ffe6f78b05afc6427b91195b334,ios,2,,Fund transfer takes too long. Other apps credit instantly but Groww takes days.,2026-01-31,5.34.0,en,1,0,4
+c35f5238a667342214b3663a49622d9d9c4c9b66a54e818de46bba5e4254efa9,ios,2,,NAV updates are delayed by hours. Real time pricing would make this much better.,2026-01-31,5.34.0,en,1,0,4
+64fe76170e09cecb54fa01571b7ad1026abc820342934f8636372f56fd113537,ios,2,,KYC process is very slow. Other apps complete it in minutes but Groww takes days.,2026-01-31,5.34.0,en,1,0,4
+26082d2e21e49c25ae27b08092ca68f3e859a6e696971a87104e5b2b0f87ad8b,ios,2,,Support chat takes forever. Issue unresolved even after multiple follow-ups daily.,2026-01-31,5.34.0,en,1,0,4
+af85ae865f7dfd66c63c8ddaf5fcd7b69c1bfeb9dd4607b98ef9e0ada8318fe5,android,2,,New user registration is too complicated. Too many steps and keeps failing midway.,2026-01-31,5.34.0,en,1,0,4
+7b8a95e8c666d9a3e5734ca94e56fbb3000f98dfce3f3cc7220773844dff27a3,ios,2,,App is extremely slow. Takes 30 seconds to load the portfolio page every time.,2026-01-31,5.34.0,en,1,0,4
+019942cac9736012804bd6543235e02d4444477e23b9f097e24b15089d423179,android,2,,KYC process is very slow. Other apps complete it in minutes but Groww takes days.,2026-01-31,5.34.0,en,1,0,4
+f0a188d21250d7f3bcb46c31a17bfeed2dc52790c6cde860a7fc8b214691f588,android,2,,Login loop issue. App keeps logging out automatically and asking for OTP again.,2026-01-31,5.34.0,en,1,0,4
+7c20bee2b9a431395bf4c6bf70621ef7ad578b21f1abfacf4d4683ba8a7482f7,ios,2,,Bank account linking fails every time I try. Very difficult to add new bank here.,2026-01-31,5.34.0,en,1,0,4
+f082cfe02c062f901594bae7f851fafd7d5858a91d576ea772b75d752c12e5cf,android,2,,KYC process is very slow. Other apps complete it in minutes but Groww takes days.,2026-01-30,5.34.0,en,1,0,4
+b9cfa3f39c0dea492711ba1e2aa818df551a95f90689dd948714451d63c658a2,android,2,,KYC process is very slow. Other apps complete it in minutes but Groww takes days.,2026-01-30,5.34.0,en,1,0,4
+498ca60780544b1e91d8168a3f43574e7c8143a91a6d418fa96e971609bdadf4,android,2,,Bank account linking fails every time I try. Very difficult to add new bank here.,2026-01-30,5.34.0,en,1,0,4
+55feff6106ed210837754e46275edb487935d7e2b2982f05c5b13af3b95298fc,android,2,,NAV updates are delayed by hours. Real time pricing would make this much better.,2026-01-30,5.34.0,en,1,0,4
+6de8c77bdfe76091a2381a9250ef0f70eaa2cb7ed6b4b294661b825c565bd10d,ios,2,,New user registration is too complicated. Too many steps and keeps failing midway.,2026-01-30,5.34.0,en,1,0,4
+79a6bbb7212c8afe3939fd66b876e8e4dafbac4a98aec6e38e8c6b2df7249ba4,android,2,,KYC process is very slow. Other apps complete it in minutes but Groww takes days.,2026-01-30,5.34.0,en,1,0,4
+91e2e397674b11241186ee88e313a3f847918c648e73d6ff93ee950813603732,android,2,,P&L calculation is wrong after latest update. Returns shown are completely incorrect.,2026-01-30,5.34.0,en,1,0,4
+0f97753ee9725e4ebbe1c0dd49867fe96d4459475ec09e09892eecab0b8e521a,ios,2,,P&L calculation is wrong after latest update. Returns shown are completely incorrect.,2026-01-30,5.34.0,en,1,0,4
+b35f24b46ba0f60721f94ce205205ea54707abc0357b61e2fc50f469e66193b2,ios,2,,Bank account linking fails every time I try. Very difficult to add new bank here.,2026-01-30,5.34.0,en,1,0,4
+a6877094fc5b4e1dc67e4ed6145fb6f7dcb1f90dcdebd13fd11691068898455c,ios,2,,Bank account linking fails every time I try. Very difficult to add new bank here.,2026-01-30,5.34.0,en,1,0,4
+dad1826fbcb5d30299fa39e0b7c0f575fbe80fd752fb00a632c27b9d08b96531,android,2,,Holdings value showing incorrect amount. Manual calculation gives different result.,2026-01-30,5.34.0,en,1,0,4
+9dd66ac52bfb82e2716f5ac086e5b86903c960b544cd85fb59c78863b2361d5a,ios,2,,Holdings value showing incorrect amount. Manual calculation gives different result.,2026-01-30,5.34.0,en,1,0,4
+b088ec6fc4df028c15f4f563465b2dd699e2ace8a4b158b772f3eaa654dc9e90,ios,2,,Fund transfer takes too long. Other apps credit instantly but Groww takes days.,2026-01-30,5.34.0,en,1,0,4
+1b17201a1f325b03a9f9ded29a80f2181831c00f8e3b2206d3ad1369e2a89021,android,2,,Login loop issue. App keeps logging out automatically and asking for OTP again.,2026-01-29,5.34.0,en,1,0,4
+06be01ce6827bd28fe34cd0d72247bbf692d55d2bdad67bca731e7a2ef86068a,android,2,,App is extremely slow. Takes 30 seconds to load the portfolio page every time.,2026-01-29,5.34.0,en,1,0,4
+faa7bed58a35e5790b9de2de005ce2ac49d6470fddc1f44cdbc318bf52fc3128,android,2,,NAV updates are delayed by hours. Real time pricing would make this much better.,2026-01-29,5.34.0,en,1,0,4
+d333246dfb17389145b94ab2afdfc94b9cc58bf32155852880653e8fd181cc21,ios,2,,App is extremely slow. Takes 30 seconds to load the portfolio page every time.,2026-01-29,5.34.0,en,1,0,4
+fea39d1e00e986835619e96659cd67458755922c398ea6bc7498572062b480f5,ios,2,,App is extremely slow. Takes 30 seconds to load the portfolio page every time.,2026-01-29,5.34.0,en,1,0,4
+265415dd780175f0c428ad44a6c7f6bb17c0eed00923e3950eefa6361581be33,ios,2,,Holdings value showing incorrect amount. Manual calculation gives different result.,2026-01-29,5.34.0,en,1,0,4
+b1a8af408d08c543c7920741beba72f5aa24927b7bd6ea445870ebd421a49edb,android,2,,New user registration is too complicated. Too many steps and keeps failing midway.,2026-01-29,5.34.0,en,1,0,4
+383b777bf32162de654beb2f70c8c23286035e7cf1a2acfd8c6d828dc28bd10b,android,2,,Fund transfer takes too long. Other apps credit instantly but Groww takes days.,2026-01-29,5.34.0,en,1,0,4
+1937edaa4638eaacb4679cbcc16ef2f0412b6ee50d4f8b5c89a700b17a33ae3a,android,2,,KYC process is very slow. Other apps complete it in minutes but Groww takes days.,2026-01-29,5.34.0,en,1,0,4
+13b37370e1e9da1aea1632ebcc7ba36e39c1b3d77730174f0a7bc167448575bf,ios,2,,Support chat takes forever. Issue unresolved even after multiple follow-ups daily.,2026-01-29,5.34.0,en,1,0,4
+3783563b1e85cb59e214e5c8c45a15478385e2057fb7de7801a6688b8153136a,ios,2,,KYC process is very slow. Other apps complete it in minutes but Groww takes days.,2026-01-29,5.34.0,en,1,0,4
+c8648eb596d79dd1fc5d2c0a3ba2171214a0bd0b32359cb8ed8081618a1b3637,android,2,,No callback option available. Cannot reach anyone to resolve urgent account issue.,2026-01-29,5.34.0,en,1,0,4
+5c19e757b0f3b4c1f1f8f53021e1392fe1275273c421e2de5d16d7863a6dfbbd,ios,2,,Fund transfer takes too long. Other apps credit instantly but Groww takes days.,2026-01-29,5.34.0,en,1,0,4
+f9edc786d6ac1ec911fc99cce532e9eb130b09c0eea5284d3fbc8be9c3c99b20,ios,2,,Login loop issue. App keeps logging out automatically and asking for OTP again.,2026-01-29,5.34.0,en,1,0,4
+475dd60c5a03ab6ad0b74b3ec0dc42793089fe498047d346ca6899a7a551fa7d,android,2,,No callback option available. Cannot reach anyone to resolve urgent account issue.,2026-01-29,5.34.0,en,1,0,4
+6ac08254685fdbc66da00eb6beae725a3bf81eb34e762bc52710863c19988767,ios,2,,New user registration is too complicated. Too many steps and keeps failing midway.,2026-01-29,5.34.0,en,1,0,4
+3df77d5e79df65455a651df8e714f8921d7b2d181a54d445c8df5534ef1aa969,android,2,,P&L calculation is wrong after latest update. Returns shown are completely incorrect.,2026-01-29,5.34.0,en,1,0,4
+49ffbae0d28695750a4be63c8a3dcbf57a8c56a33b7b53f918079c1ca3a46fa1,android,2,,No callback option available. Cannot reach anyone to resolve urgent account issue.,2026-01-28,5.34.0,en,1,0,4
+236564b1655cde11be9807d76235942001c0b9588e8b6eeae66eb7c8977548ba,android,2,,No callback option available. Cannot reach anyone to resolve urgent account issue.,2026-01-28,5.34.0,en,1,0,4
+f25ae96fe4d7658658c04eabe050f4a51988a8795ad4825f56070f4e988f4466,ios,2,,New user registration is too complicated. Too many steps and keeps failing midway.,2026-01-28,5.34.0,en,1,0,4
+77a1cdedb4dff80fbe9de93b7b216773d9a004ba1ab6b04f6c99bacbf870cf6b,ios,2,,KYC process is very slow. Other apps complete it in minutes but Groww takes days.,2026-01-28,5.34.0,en,1,0,4
+7ddb031d07bb4ce7ea105580439a8d992d8f85d13a3628e080eda6f4d5ebca95,android,2,,New user registration is too complicated. Too many steps and keeps failing midway.,2026-01-28,5.34.0,en,1,0,4
+1e2aec0c3731c0428ebf7548b938fff40a1b7b5163de81bdc2006097d9f04912,ios,2,,KYC process is very slow. Other apps complete it in minutes but Groww takes days.,2026-01-28,5.34.0,en,1,0,4
+4620d4a98373c32c7c93d3ff0d55bb4e042df0e1d843bc44d527edd2fe2ff3e1,android,2,,New user registration is too complicated. Too many steps and keeps failing midway.,2026-01-28,5.34.0,en,1,0,4
+e564290122c4ee6e01a1a69e66d78e02bad57720d95b645fa572ba18a426d5ad,ios,2,,P&L calculation is wrong after latest update. Returns shown are completely incorrect.,2026-01-28,5.34.0,en,1,0,4
+11573f92cd1a79e50564c0340dfce0c2e4572922b2399ecbe240441b217e42ba,ios,2,,Support chat takes forever. Issue unresolved even after multiple follow-ups daily.,2026-01-28,5.34.0,en,1,0,4
+69229a5f2cfb6284454fc00bcd6088a3d9508f533492873ebcdd43ecb1e8f840,android,2,,Search functionality is broken. Cannot find stocks or mutual funds using search.,2026-01-28,5.34.0,en,1,0,4
+c485a65f513bfb57a7dedbc80095af6efd243683b238fe7bfc14a7325168a459,android,2,,Fund transfer takes too long. Other apps credit instantly but Groww takes days.,2026-01-27,5.34.0,en,1,0,4
+f26f25c44e3b04f20cc336faeb137384547b4c82f57cd52424085a5d4be3fd9e,android,2,,Bank account linking fails every time I try. Very difficult to add new bank here.,2026-01-27,5.34.0,en,1,0,4
+d4517ce25cc697dceaf3448c51deb7b349aa56176320fd29c8e253a4b8a2e484,android,2,,No callback option available. Cannot reach anyone to resolve urgent account issue.,2026-01-27,5.34.0,en,1,0,4
+917cf15777b5e87899cb4782350d88e069d1459324f69bedf44c84c4adc1039f,ios,2,,Login loop issue. App keeps logging out automatically and asking for OTP again.,2026-01-27,5.34.0,en,1,0,4
+69c7ee5bf23e8c78d317498dc3e0106da320f1922372913e3257a36fed9180bb,android,2,,App is extremely slow. Takes 30 seconds to load the portfolio page every time.,2026-01-27,5.34.0,en,1,0,4
+5921f1b565eb0714bcdff51ecd0594457988a57bac6a7358359f099b21c33a38,android,2,,Support chat takes forever. Issue unresolved even after multiple follow-ups daily.,2026-01-27,5.34.0,en,1,0,4
+9f2073e1e98c676754954a2955d75292410943c44f9c75509005db3a52533ed2,ios,2,,Fund transfer takes too long. Other apps credit instantly but Groww takes days.,2026-01-26,5.34.0,en,1,0,4
+8ec79fdcf7cd792db0ed9c9c9396c206e76332ac6b3ab4b7c5d765ecb9d0693a,ios,2,,Search functionality is broken. Cannot find stocks or mutual funds using search.,2026-01-26,5.34.0,en,1,0,4
+f4dcd5d0df219f1246128e5c30c9ba2e5e9d25751c2c8eb3a207cc3f8ea609ed,ios,2,,Fund transfer takes too long. Other apps credit instantly but Groww takes days.,2026-01-26,5.34.0,en,1,0,4
+9904e0f60261f961862e976d3c408a28b2f4efebbc89198f708bcf2e19b4d696,ios,2,,Search functionality is broken. Cannot find stocks or mutual funds using search.,2026-01-26,5.34.0,en,1,0,4
+5ef8f5774306481eae8d709db5209933fe0d4e2914700af71b6e367aef32e564,android,2,,Bank account linking fails every time I try. Very difficult to add new bank here.,2026-01-26,5.34.0,en,1,0,4
+6f28b1d92ae953ca6220462565286e5685902846e791a44f7fe8e3aec6428db9,ios,2,,App is extremely slow. Takes 30 seconds to load the portfolio page every time.,2026-01-26,5.34.0,en,1,0,4
+48c48df8357c6ef9b7cad46f97d0b9871c5cd9e4fc16e5effd16ff84133a42b9,ios,2,,Login loop issue. App keeps logging out automatically and asking for OTP again.,2026-01-26,5.34.0,en,1,0,4
+ee61409636f651d95a0456fa9d0a1a41e6e9864de8e014499fcd249de5e89228,android,2,,Support chat takes forever. Issue unresolved even after multiple follow-ups daily.,2026-01-26,5.34.0,en,1,0,4
+8b792bb4447a746851a95db878dc635c6fd5bed37ef389aaa863a69854cfbc1d,ios,2,,Bank account linking fails every time I try. Very difficult to add new bank here.,2026-01-26,5.34.0,en,1,0,4
+5e55a80a71086b5d2b0d0547acd4070fac49d2e5b4fc04f0a864b17409e7b4f0,android,2,,App is extremely slow. Takes 30 seconds to load the portfolio page every time.,2026-01-26,5.34.0,en,1,0,4
+55770c635c80bda5389946e30e4abb4f4937132533082cc8a8769c146d22ec8e,ios,2,,Support chat takes forever. Issue unresolved even after multiple follow-ups daily.,2026-01-26,5.34.0,en,1,0,4
+9d03e7957d4fa08f8ee6cde0a52d511795b2f6883d0933309d7c153e00094d07,ios,2,,No callback option available. Cannot reach anyone to resolve urgent account issue.,2026-01-26,5.34.0,en,1,0,4
+41b6a21a57e2ea615f6884f042be84000b505431274cd6d42730544790d64e17,ios,2,,P&L calculation is wrong after latest update. Returns shown are completely incorrect.,2026-01-26,5.34.0,en,1,0,4
+63f3babf89588a11a5e943db45e7b48ed0a3330667ccbdae1cce30050a65febd,android,2,,KYC process is very slow. Other apps complete it in minutes but Groww takes days.,2026-01-26,5.34.0,en,1,0,4
+78b051d8351bd6cbeb6429eb3153aa255e329ae7a24389a1bbb80bbc4e3bdcea,android,2,,Support chat takes forever. Issue unresolved even after multiple follow-ups daily.,2026-01-26,5.34.0,en,1,0,4
+8ef75d20b75919ec878e841e4e641dcc5a6edf15b7fbff1df02d90b78fa5a98b,android,2,,Support chat takes forever. Issue unresolved even after multiple follow-ups daily.,2026-01-26,5.34.0,en,1,0,4
+8846904e9321e4e01299e2358dc88833bd5ed22b4bd35f62f0300259ecd4565b,android,2,,App is extremely slow. Takes 30 seconds to load the portfolio page every time.,2026-01-26,5.34.0,en,1,0,4
+8f5d0940340ff60dbba1cf78a12085813de692038238dc00935eca975025e485,ios,2,,App is extremely slow. Takes 30 seconds to load the portfolio page every time.,2026-01-26,5.34.0,en,1,0,4
+9ea773fd2867bd7190347f905bba779ce95f37fbd5d7356f3b1b732f4995df2c,android,2,,Fund transfer takes too long. Other apps credit instantly but Groww takes days.,2026-01-26,5.34.0,en,1,0,4
+be4b186c0e8b61404597dcbaf6d5dc9b3454c9e0de45bd194b60a17bbec7f591,ios,2,,Bank account linking fails every time I try. Very difficult to add new bank here.,2026-01-26,5.34.0,en,1,0,4
+e85f542cc14bdc27d7be0b2bb2674b4fbf821e0f66e5985c74945c6f005a6e90,android,3,,Returns tracking is decent but comparison benchmark feature needs improvement.,2026-02-01,5.34.0,en,1,0,4
+bfb01ece65fe18773aa8ccf511da0c25b24c793dc2ecd3ad3cc4e250b6b2ceef,android,3,,Support is slow but eventually resolves issues. Response time needs improvement.,2026-02-01,5.34.0,en,1,0,4
+55ec8374d6a1b710610212338abe25ef7f4ff334241c6862a7b0339385ab3850,android,3,,Support is slow but eventually resolves issues. Response time needs improvement.,2026-02-01,5.34.0,en,1,0,4
+345696a0cf3eaca3b3d469124809f71a2c45663efe155fbe3204aee119f5396d,android,3,,Portfolio graph not loading properly. Shows error when trying to view performance.,2026-02-01,5.34.0,en,1,0,4
+4bdd56f70d2a460e148a65e4b6bc33c312b348f5937d31ccdab7af4ecfb892e0,android,3,,KYC took 4 days. Not great but eventually worked. Process needs to be faster.,2026-02-01,5.34.0,en,1,0,4
+3662f022ca8a8b5227c06d8cf9100d50aeec1a38611b5794b75a0d7c225a4396,ios,3,,App performance degraded after recent update. Previous version was much better.,2026-02-01,5.34.0,en,1,0,4
+7ba17f94c5d0c08666c2f99259ca04297199255e54dfc6212866d769e54d2052,ios,3,,Support is slow but eventually resolves issues. Response time needs improvement.,2026-01-31,5.34.0,en,1,0,4
+1ac9e81787f12e9a05471b00c1717199c2232231c979a1ba4eeae95396a4fd46,android,3,,App performance degraded after recent update. Previous version was much better.,2026-01-31,5.34.0,en,1,0,4
+a3107891bcb0ce28443c27310e4363f8639cd4a8bb98c480a388144bf5c9a93c,android,3,,App performance degraded after recent update. Previous version was much better.,2026-01-31,5.34.0,en,1,0,4
+6e3c837fe84f060994c0a69b389c6a7c23f080879285fd59070cc7c00494dce1,android,3,,Portfolio graph not loading properly. Shows error when trying to view performance.,2026-01-31,5.34.0,en,1,0,4
+dce8fa9a19212037ce3bcef1059049a7ddc2fa972c56777b7151065e4cb6f3d4,android,3,,App performance degraded after recent update. Previous version was much better.,2026-01-31,5.34.0,en,1,0,4
+7252ce2b8cabd3b6b532666bd0ffb6a2f7e81291511ca30efc04da35ce7f42ec,ios,3,,Support is slow but eventually resolves issues. Response time needs improvement.,2026-01-31,5.34.0,en,1,0,4
+731cb3d27b7db32bb0bab09e9cac5c59d4742acdda69a8013ff37759635ddc6f,ios,3,,Returns tracking is decent but comparison benchmark feature needs improvement.,2026-01-31,5.34.0,en,1,0,4
+c169f58eb65e25802a09a37c968ca7727577ba1da71cac29cb6a74fd254896ad,android,3,,KYC took 4 days. Not great but eventually worked. Process needs to be faster.,2026-01-31,5.34.0,en,1,0,4
+0fafbda5cb4c573204160c80b67a267ea9d28d5084e16780c3eac4f47342362c,android,3,,Returns tracking is decent but comparison benchmark feature needs improvement.,2026-01-30,5.34.0,en,1,0,4
+fe888b68232131857f9ba8262476500e5441e96f49247b82c534dadf62377783,android,3,,App performance degraded after recent update. Previous version was much better.,2026-01-30,5.34.0,en,1,0,4
+255dabb439b6d4ced109515acddf91ce8770bccebf1b25d9e6ac2e13a775ba5a,ios,3,,Portfolio graph not loading properly. Shows error when trying to view performance.,2026-01-30,5.34.0,en,1,0,4
+c22d91654ff3824c75a2c6fc03a8d5567522890c0f4701a816b7ae85adf80822,ios,3,,KYC took 4 days. Not great but eventually worked. Process needs to be faster.,2026-01-29,5.34.0,en,1,0,4
+9104338ab251eacee03253d0137817691b090dd46323407fd880813ac17eb6c3,android,3,,Returns tracking is decent but comparison benchmark feature needs improvement.,2026-01-29,5.34.0,en,1,0,4
+0b7fd37c82df87b7809f69d63f16752ffb54a7325ddd7428173c901fcef2ddc3,ios,3,,KYC took 4 days. Not great but eventually worked. Process needs to be faster.,2026-01-29,5.34.0,en,1,0,4
+fc347c9e11b569fff452c72f9d23b27926cdd3831313e9971614919c4319f784,android,3,,Portfolio graph not loading properly. Shows error when trying to view performance.,2026-01-29,5.34.0,en,1,0,4
+6dfe69920258661bb7f4951a27e7be958c94272a38c26cd3f640f76c9ba5cdc4,android,3,,KYC took 4 days. Not great but eventually worked. Process needs to be faster.,2026-01-29,5.34.0,en,1,0,4
+d19727c1703fcfde563f3514b799a9bc506c2185f175e8bfea49fc056667d525,android,3,,App performance degraded after recent update. Previous version was much better.,2026-01-29,5.34.0,en,1,0,4
+ebc8ca4489b447d486c509bc52676461dbcf2d2bc9d1dc4383829b3d3b702c3b,ios,3,,Returns tracking is decent but comparison benchmark feature needs improvement.,2026-01-28,5.34.0,en,1,0,4
+b5e9fd0615ac8756740518a6faa7aaefdb95477c55624a977138ae2d755a2c10,ios,3,,App performance degraded after recent update. Previous version was much better.,2026-01-28,5.34.0,en,1,0,4
+4a7183f13b4654c6c2bb9ad7072db3f12b52809873581532495b93d9b998754d,ios,3,,KYC took 4 days. Not great but eventually worked. Process needs to be faster.,2026-01-28,5.34.0,en,1,0,4
+7d6e298a9c3cae670a5fd99130a8efdd5ab1560e8678603d146a10c31f34a242,ios,3,,KYC took 4 days. Not great but eventually worked. Process needs to be faster.,2026-01-27,5.34.0,en,1,0,4
+12101a6370bd87b1adeba46781a70ccd95592f1511a089fc3929e31477908a3d,android,3,,Support is slow but eventually resolves issues. Response time needs improvement.,2026-01-27,5.34.0,en,1,0,4
+26c7a4286734bcbec2e91748da76d47faffcc617bdef113e54a9e2bc587484d1,ios,3,,KYC took 4 days. Not great but eventually worked. Process needs to be faster.,2026-01-27,5.34.0,en,1,0,4
+1afed2147f0e19ccea6ee1f1ab729e5cdb855c0f684e313b2e682455bed8d5df,android,3,,Portfolio graph not loading properly. Shows error when trying to view performance.,2026-01-27,5.34.0,en,1,0,4
+7fea6e6b60dc8c08b488b1e4f234d6876f14831dd8269c2d515a40c30662815a,ios,3,,Support is slow but eventually resolves issues. Response time needs improvement.,2026-01-27,5.34.0,en,1,0,4
+06baed7c040366c18e10176fa0c9efab2ac7321375db3bd48a7f32433322ead1,ios,3,,Support is slow but eventually resolves issues. Response time needs improvement.,2026-01-26,5.34.0,en,1,0,4
+0caa95c585e09b9b5e4c65fc1fdb280b2b9144ba5bf523d292791996fd3bf1b3,ios,3,,Portfolio graph not loading properly. Shows error when trying to view performance.,2026-01-26,5.34.0,en,1,0,4
+0c5fe9c9d00b8721415b2ce36bda2e8b5ea6ebf1c5e6575f98aaea6a838b9765,android,3,,Returns tracking is decent but comparison benchmark feature needs improvement.,2026-01-26,5.34.0,en,1,0,4
+8057a53ec759765d258a22f8065883c438690413c9f48c824ef2ecf7fd821c5e,android,3,,KYC took 4 days. Not great but eventually worked. Process needs to be faster.,2026-01-26,5.34.0,en,1,0,4
+cbc867cd2446ecec0f565d86209d1fedac4a15d2d6360f1c423777cf21b672d9,android,3,,App performance degraded after recent update. Previous version was much better.,2026-01-26,5.34.0,en,1,0,4
+dd6dda5377d975853a9f0e44223ca3487f65d9818106278794e3f9b7dc405fd7,android,3,,Support is slow but eventually resolves issues. Response time needs improvement.,2026-01-26,5.34.0,en,1,0,4
+85a832857eb6d2727305d10d6e821fc6402d56bc056edaa0f86d49f3593755df,ios,4,,Portfolio view is clean and simple. Would love to see more detailed analytics here.,2026-02-01,5.34.0,en,1,0,4
+9db3916ab3476c8c3add2341220b6906a65acd2014cf9cdd96911282444d41e4,ios,4,,Good app overall. Some minor bugs but generally a reliable investment platform.,2026-02-01,5.34.0,en,1,0,4
+926c93effeea0efec213221b9048f13bc6e8a6f69593fc15d7c40b1d7592aee4,android,4,,Nice interface and easy navigation. Would love more advanced charting tools though.,2026-02-01,5.34.0,en,1,0,4
+599abf173c4ca55867ebac7cd6db1d93a1d86cad1519111077925352fe548432,android,4,,Portfolio view is clean and simple. Would love to see more detailed analytics here.,2026-01-31,5.34.0,en,1,0,4
+54d205c5602449a04398369be8b6d84ddaa14e7f56bd04b2bc5ae4fc5220291e,android,4,,Nice interface and easy navigation. Would love more advanced charting tools though.,2026-01-31,5.34.0,en,1,0,4
+4083836b341215127bc5832648c4217015d45d787e1dec2ea83b3610400ebff2,ios,4,,Nice interface and easy navigation. Would love more advanced charting tools though.,2026-01-30,5.34.0,en,1,0,4
+6a28f1f7ffc149ab07a35cfd6f9ab5dfbffbb096dfac895a7032b94fa00a2ff5,android,4,,Good app overall. Some minor bugs but generally a reliable investment platform.,2026-01-30,5.34.0,en,1,0,4
+ca5d528fa44c6e570d42353759c7a87c7518bfb82f227ae49eb061f80413e515,ios,4,,Portfolio view is clean and simple. Would love to see more detailed analytics here.,2026-01-29,5.34.0,en,1,0,4
+3472b56f576775d23e7b58f4a7018ae4abf84e026a8d8aacb9b421f6b27fc0e2,ios,4,,Good app overall. Some minor bugs but generally a reliable investment platform.,2026-01-29,5.34.0,en,1,0,4
+791cc402e103498519a5c5aa07b96e16fedac15a9a84ee7b0b17c643a8b4aee7,ios,4,,Nice interface and easy navigation. Would love more advanced charting tools though.,2026-01-29,5.34.0,en,1,0,4
+4b49277c0cc6b27dadfea8febe83f8130088540a5512cc9b736dce9206ffa71c,android,4,,Nice interface and easy navigation. Would love more advanced charting tools though.,2026-01-28,5.34.0,en,1,0,4
+d2ff150f2348e3cd095e731fcbc10693a93b278287a4ae726310251cf2b94afd,ios,4,,Good app overall. Some minor bugs but generally a reliable investment platform.,2026-01-28,5.34.0,en,1,0,4
+26036d479c6fa7ad19369a5ceb86d2406f95404c7b60d67a7fd220e4635d7d15,ios,4,,Nice interface and easy navigation. Would love more advanced charting tools though.,2026-01-28,5.34.0,en,1,0,4
+f1163e954614ad789f6197303d5df3f005c826426a04f37b99d77600a66684e3,android,4,,Good app overall. Some minor bugs but generally a reliable investment platform.,2026-01-28,5.34.0,en,1,0,4
+a527705b8b627b290c3e51e40b3778af9ba509aa51d3aeb15a328f3b374da4ac,android,4,,Good portfolio tracking overall but chart analysis tools could be more detailed.,2026-01-27,5.34.0,en,1,0,4
+daba46b1be13ca5172762dd7e97744fd5b7842b4ec1be221a0b5109c183ba85d,android,4,,Good app overall. Some minor bugs but generally a reliable investment platform.,2026-01-27,5.34.0,en,1,0,4
+953b0a9584079b4f7d988ba0486c37b57c12eb24e91a1147e0a5d6ea2cc78fe0,ios,4,,Good portfolio tracking overall but chart analysis tools could be more detailed.,2026-01-27,5.34.0,en,1,0,4
+05cc4059db9489e977f359d924f5fa1f52207482b19146da0b006ff709c4e6da,ios,4,,Nice interface and easy navigation. Would love more advanced charting tools though.,2026-01-27,5.34.0,en,1,0,4
+922c35b76e85236c174632effc2483ed66fb3116aa86cae803b931e25f523d6d,ios,4,,Nice interface and easy navigation. Would love more advanced charting tools though.,2026-01-27,5.34.0,en,1,0,4
+adb2584b55f50d5f2ba2c54939132ac1cdfc5ef4d8f0d8c25a580cd98d94dd59,ios,4,,Good portfolio tracking overall but chart analysis tools could be more detailed.,2026-01-26,5.34.0,en,1,0,4
+05e098fde0ac5d380b863a16e5523b01bbf3daaafa163ebb2e1b682904c03a4f,android,4,,Good app overall. Some minor bugs but generally a reliable investment platform.,2026-01-26,5.34.0,en,1,0,4
+ff1caeaf6542fc6b51d3ad38276b2178f0726ade43ecad0509bb71b295468b1c,ios,5,,Love the zero commission on direct mutual funds. Saving a lot on charges overall.,2026-02-01,5.34.0,en,1,0,4
+3ff5e84815a3963a1614237549395949a850e2054dd478749941b72ac83a4590,ios,5,,Fast order execution for stocks. Best trading platform for retail investors in India.,2026-02-01,5.34.0,en,1,0,4
+69667b023e76591813254068125742a3ff1cb2d251a3f6b4efa96dbe2821b0f2,ios,5,,Excellent app for beginners. Started my investment journey easily. Very satisfied.,2026-01-31,5.34.0,en,1,0,4
+82fee692072def311aa99ff5a877c1025796691255eadb3c6b1e39b68ebfc3bd,android,5,,SIP setup is very easy and smooth. Returns tracking is excellent. Highly recommend.,2026-01-31,5.34.0,en,1,0,4
+784fa70c64d7b2c8987834fd5d6a899d0d3f0aae86de420ed9d189d110664241,ios,5,,Best investment app in India. Simple clean interface and great mutual fund options.,2026-01-31,5.34.0,en,1,0,4
+f5a6806d138114d321009c5bb95d5ad1611e7621c020c2326c206c5e44ed3a90,android,5,,Fast order execution for stocks. Best trading platform for retail investors in India.,2026-01-31,5.34.0,en,1,0,4
+4db22245233419c12dd8004cc63e2a0893cf2899d6082be44571a0bc91d83caf,ios,5,,SIP setup is very easy and smooth. Returns tracking is excellent. Highly recommend.,2026-01-31,5.34.0,en,1,0,4
+0e03f2bb9c9c70df104b57463e3a70ceed3622f41dab8ab780d2baa1f37d643c,android,5,,Excellent app for beginners. Started my investment journey easily. Very satisfied.,2026-01-31,5.34.0,en,1,0,4
+2df81e6e10b3a3217f6d15fea2dfbfe439ded0066d9eb58764956e41906657f3,ios,5,,SIP setup is very easy and smooth. Returns tracking is excellent. Highly recommend.,2026-01-31,5.34.0,en,1,0,4
+e92e923344cb15df822f60c7c04ceab5edde7876c5dd4b52d57bc42212696e5b,android,5,,Excellent app for beginners. Started my investment journey easily. Very satisfied.,2026-01-30,5.34.0,en,1,0,4
+052d76efbc243a78d65a9ca68237f7460e228598c4341eef65fe639dc299fe60,android,5,,Fast order execution for stocks. Best trading platform for retail investors in India.,2026-01-30,5.34.0,en,1,0,4
+d9aff1e7892ae9364edfe3d651fa1e6ef21a9aa0789daabc8c486b84fe1eb906,ios,5,,Love the zero commission on direct mutual funds. Saving a lot on charges overall.,2026-01-30,5.34.0,en,1,0,4
+bddf4a0be4726a97ff3f8a20d9684acf94a287334bfad469f2221a3e38b54967,android,5,,Best investment app in India. Simple clean interface and great mutual fund options.,2026-01-29,5.34.0,en,1,0,4
+2bfb36f7917624c28c0584527bfeecfa126effd9d8c4bb82c6b331a0d4e98cd1,android,5,,Fast order execution for stocks. Best trading platform for retail investors in India.,2026-01-29,5.34.0,en,1,0,4
+70366e22bd599f2f117eeb700c8d209894f3c28e22c9f5041bb36548e74127e7,ios,5,,SIP setup is very easy and smooth. Returns tracking is excellent. Highly recommend.,2026-01-29,5.34.0,en,1,0,4
+e692ee46cbb9f9be15a273838e3caf227e6440af40355d1836a640d817931cac,android,5,,SIP setup is very easy and smooth. Returns tracking is excellent. Highly recommend.,2026-01-29,5.34.0,en,1,0,4
+c8d02607551a5e14ff9c5346cbdbf45420620a58067d5f1cfa015e9e7df6c718,ios,5,,Excellent app for beginners. Started my investment journey easily. Very satisfied.,2026-01-28,5.34.0,en,1,0,4
+de26e94aaa16806944b7f278339036fe34a785db1e2e43416089a52a2460660b,android,5,,SIP setup is very easy and smooth. Returns tracking is excellent. Highly recommend.,2026-01-28,5.34.0,en,1,0,4
+9100a36b3cad9c5bd4861c256efb8bbad4e2b7f3636da08e34029b83d0e735db,ios,5,,Excellent app for beginners. Started my investment journey easily. Very satisfied.,2026-01-26,5.34.0,en,1,0,4
+4066183c81e856f61ebc8d48360d7e1c6251f905b711a7627005c0b0eacd77b1,ios,5,,SIP setup is very easy and smooth. Returns tracking is excellent. Highly recommend.,2026-01-26,5.34.0,en,1,0,4

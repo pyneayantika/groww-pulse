@@ -1,0 +1,33 @@
+app:
+  name: groww-pulse
+  version: "1.0.0"
+  ios_app_id: "co.groww.stocks"
+  android_app_id: "com.nextbillion.groww"
+
+themes:
+  - id: T1
+    label: "Onboarding & KYC"
+    keywords: [verification, kyc, documents, stuck, waiting, account, failed]
+  - id: T2
+    label: "Payments & Withdrawals"
+    keywords: [money, UPI, transaction, withdrawal, bank, payment, stuck]
+  - id: T3
+    label: "Portfolio & Performance"
+    keywords: [returns, profit, loss, holdings, portfolio, graph, NAV]
+  - id: T4
+    label: "App Stability & UX"
+    keywords: [crash, slow, freeze, login, OTP, screen, bug, error]
+  - id: T5
+    label: "Customer Support"
+    keywords: [support, response, ticket, refund, chat, helpdesk]
+
+thresholds:
+  min_review_length: 20
+  max_review_length: 10000
+  language_confidence: 0.90
+  max_themes: 5
+  max_pulse_words: 250
+  surge_multiplier: 3
+  min_reviews_for_bertopic: 50
+  spam_repetition_ratio: 0.40
+  llm_timeout_seconds: 30
