@@ -2,6 +2,6 @@
   "name": "groww-pulse",
   "version": "1.0.0",
   "dependencies": {
-    "google-play-scraper": "^9.1.0"
+    "google-play-scraper": "^10.1.2"
   }
 }
