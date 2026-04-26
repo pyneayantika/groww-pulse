@@ -487,18 +487,24 @@ def generate_draft():
         year = datetime.now().year
 
         themes = conn.execute('''
-            SELECT t.label, t.urgency_score,
+            SELECT DISTINCT t.label,
+                   MAX(t.urgency_score) as urgency_score,
                    t.sentiment_score, t.volume,
                    t.trend_direction, t.top_quote,
                    t.action_idea
             FROM themes t
             JOIN weekly_runs w ON t.run_id = w.id
             WHERE w.status = "completed"
-            ORDER BY t.urgency_score DESC
+            GROUP BY t.label
+            ORDER BY urgency_score DESC
             LIMIT 5
         ''').fetchall()
 
         total = conn.execute('SELECT COUNT(*) FROM reviews').fetchone()[0]
+        gdoc_row = conn.execute(
+            'SELECT gdoc_url FROM weekly_runs WHERE status="completed" AND gdoc_url IS NOT NULL ORDER BY id DESC LIMIT 1'
+        ).fetchone()
+        gdoc_url = gdoc_row[0] if gdoc_row else ''
         conn.close()
 
         if not themes:
@@ -542,6 +548,13 @@ def generate_draft():
                 {quotes}
                 <h2 style="color:#00B386;font-size:15px;margin-top:20px">&#9989; Recommended Actions</h2>
                 <ol style="font-size:13px;color:#333;line-height:1.8">{actions}</ol>
+                <div style="text-align:center;margin-top:24px">
+                    <a href="{gdoc_url if gdoc_url else '#'}"
+                       style="background:#00B386;color:#fff;padding:12px 24px;border-radius:6px;
+                              text-decoration:none;font-weight:600;font-size:13px">
+                        &#128196; View Full Report &rarr;
+                    </a>
+                </div>
             </div>
             <div style="background:#f9f9f9;padding:14px;text-align:center;font-size:11px;
                         color:#999;border-radius:0 0 8px 8px">
