@@ -54,6 +54,9 @@ nav{height:56px;background:rgba(8,14,26,.95);backdrop-filter:blur(12px);border-b
 .btn-primary:hover{background:#00a87e;border-color:#00a87e;color:#060A12}
 .btn-outline{border-color:var(--green);color:var(--green)}
 .btn-outline:hover{background:rgba(0,200,150,.1)}
+.btn-ghost{display:inline-flex;align-items:center;gap:6px;padding:6px 13px;border-radius:8px;font-size:12px;font-weight:500;cursor:pointer;border:1px solid var(--border);background:transparent;color:var(--text2);text-decoration:none;transition:all .15s;white-space:nowrap;font-family:inherit}
+.btn-ghost:hover{border-color:var(--green);color:var(--green);background:rgba(0,200,150,.06)}
+.btn-ghost:disabled{opacity:.4;pointer-events:none}
 .spinner{display:inline-block;width:12px;height:12px;border:2px solid rgba(6,10,18,.4);border-top-color:#060A12;border-radius:50%;animation:spin .65s linear infinite}
 @keyframes spin{to{transform:rotate(360deg)}}
 
@@ -194,7 +197,8 @@ tr:hover td{background:rgba(14,22,40,.5)}
     </button>
     <a class="btn" href="/api/export/quarterly" download style="padding:6px 13px;font-size:12px">&#8659; All Reviews CSV</a>
     <button class="btn" id="gdoc-btn" onclick="openGDoc()" style="display:none;padding:6px 13px;font-size:12px">&#9654; Report Doc</button>
-    <a class="btn" href="https://mail.google.com/mail/u/0/#drafts" target="_blank" style="padding:6px 13px;font-size:12px">&#9993; Gmail Drafts</a>
+    <button class="btn-ghost" onclick="generateDraft(event)">&#128231; Generate Draft</button>
+    <button class="btn-ghost" onclick="window.open('https://mail.google.com/mail/u/0/#search/in%3Adrafts+Groww+Pulse','_blank')">&#128236; View Drafts</button>
     <button class="btn" id="refresh-btn" onclick="refreshAll()" style="padding:6px 13px;font-size:12px">&#8635; Refresh</button>
   </div>
   <div class="nav-right">
@@ -575,6 +579,29 @@ async function triggerRun(){
     else toast('Pipeline: '+(d.status||'done'),'err');
   }catch(e){toast('Pipeline error \u2014 check terminal','err');}
   finally{btn.disabled=false;ico.textContent='\u25BA';txt.textContent='Run Pipeline';}
+}
+
+async function generateDraft(e){
+  var btn=e.target;
+  btn.textContent='\u23F3 Generating...';
+  btn.disabled=true;
+  try{
+    var res=await fetch('/api/generate-draft',{method:'POST'});
+    var data=await res.json();
+    if(data.success){
+      toast('\u2705 Gmail draft created! Check your drafts.');
+      setTimeout(function(){
+        window.open('https://mail.google.com/mail/u/0/#search/in%3Adrafts+Groww+Pulse','_blank');
+      },1500);
+    }else{
+      toast('\u274C '+(data.error||'Failed'),'err');
+    }
+  }catch(err){
+    toast('\u274C Error: '+err.message,'err');
+  }finally{
+    btn.textContent='\uD83D\uDCE7 Generate Draft';
+    btn.disabled=false;
+  }
 }
 
 async function refreshAll(){
