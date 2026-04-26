@@ -6,7 +6,6 @@ __pycache__
 *.pyo
 node_modules
 data/raw/
-data/groww_pulse.db
 data/chroma/
 data/logs/
 google_tokens.json

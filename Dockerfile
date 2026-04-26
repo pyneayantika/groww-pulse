@@ -24,4 +24,4 @@ RUN mkdir -p data/raw data/processed data/archive
 EXPOSE 8080
 
 # Default: run dashboard
-CMD ["sh", "-c", "python scripts/init_render_db.py && python dashboard/app.py"]
+CMD ["sh", "-c", "python dashboard/app.py"]
